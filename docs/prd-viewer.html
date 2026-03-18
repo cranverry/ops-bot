@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRD: FromSeoul Ops Bot</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --text: #e2e4ec;
+      --muted: #8b8fa8;
+      --accent: #7c6aff;
+      --accent2: #06b6d4;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --radius: 10px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+    .layout {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* TOC Sidebar */
+    .toc {
+      width: 260px;
+      min-width: 260px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 24px 16px;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+    .toc-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    .toc a {
+      display: block;
+      padding: 5px 8px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      border-radius: 6px;
+      transition: all 0.15s;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .toc a:hover { color: var(--text); background: var(--border); }
+    .toc a.h2 { font-weight: 600; color: var(--text); margin-top: 8px; }
+    .toc a.h3 { padding-left: 20px; font-size: 12px; }
+
+    /* Main */
+    .main {
+      flex: 1;
+      max-width: 860px;
+      padding: 48px 40px;
+      margin: 0 auto;
+    }
+
+    /* Header banner */
+    .doc-header {
+      background: linear-gradient(135deg, #7c6aff22, #06b6d422);
+      border: 1px solid #7c6aff44;
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin-bottom: 40px;
+    }
+    .doc-header h1 {
+      font-size: 24px;
+      font-weight: 800;
+      background: linear-gradient(90deg, #7c6aff, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    .doc-meta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      background: var(--border);
+      color: var(--muted);
+    }
+    .badge.accent { background: #7c6aff22; color: #a59aff; }
+    .badge.cyan { background: #06b6d422; color: #67e8f9; }
+    .badge.yellow { background: #eab30822; color: #fde047; }
+
+    /* Content */
+    #content h1 { display: none; }
+    #content h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      margin: 48px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    #content h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--accent2);
+      margin: 28px 0 12px;
+    }
+    #content h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 20px 0 8px;
+    }
+    #content p { margin-bottom: 14px; font-size: 14.5px; color: #c8cadb; }
+    #content strong { color: var(--text); }
+    #content ul, #content ol {
+      margin: 10px 0 14px 20px;
+      font-size: 14px;
+      color: #c8cadb;
+    }
+    #content li { margin-bottom: 5px; }
+    #content blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 10px 16px;
+      margin: 16px 0;
+      background: #7c6aff11;
+      border-radius: 0 6px 6px 0;
+      color: #a59aff;
+      font-size: 14px;
+    }
+
+    /* Tables */
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 13.5px;
+    }
+    #content thead {
+      background: var(--surface);
+    }
+    #content th {
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--border);
+    }
+    #content td {
+      padding: 9px 14px;
+      border-bottom: 1px solid var(--border);
+      color: #c8cadb;
+    }
+    #content tr:hover td { background: #ffffff08; }
+    #content td:first-child { font-weight: 500; color: var(--text); }
+
+    /* Code blocks */
+    #content pre {
+      background: #0a0c14;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      overflow-x: auto;
+      margin: 16px 0;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    #content code {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      color: #a5f3fc;
+    }
+    #content p code, #content li code {
+      background: #7c6aff18;
+      color: #a59aff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    /* Emoji status */
+    #content td:has(> :first-child:contains("✅")) { color: var(--green); }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    @media (max-width: 768px) {
+      .toc { display: none; }
+      .main { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+<div class="layout">
+  <nav class="toc" id="toc">
+    <div class="toc-title">목차</div>
+  </nav>
+
+  <main class="main">
+    <div class="doc-header">
+      <h1>FromSeoul Ops Bot</h1>
+      <div class="doc-meta">
+        <span class="badge accent">PRD v0.2</span>
+        <span class="badge cyan">2026-03-19</span>
+        <span class="badge yellow">검토중</span>
+        <span class="badge">작성: Milo (PM)</span>
+      </div>
+    </div>
+    <div id="content"></div>
+  </main>
+</div>
+
+<script>
+const md = `# PRD: FromSeoul Ops Bot
+
+## 1. 개요 (Overview)
+
+### 1.1 배경
+
+FromSeoul은 OAS·MRG·BTQ 3개 Booth.pm 의상 브랜드를 운영하는 크리에이티브 조직이다.
+내부 6인·외부 20인+ 구조에서 기획→생산→출시 파이프라인의 레거시 지식이 개인 DM·노션 파편·구두 인수인계로 분산되어 있어 소통 비용과 온보딩 비용이 높다.
+
+**핵심 문제:**
+- 신규 외부 인력에게 동일한 설명을 반복하는 소통 비용
+- SOP 문서가 없거나 구식이라 품질 편차 발생
+- 파이프라인 현황 파악에 수동 확인 필요
+- 지식이 사람에 종속되어 확장이 불가능한 구조
+
+### 1.2 미션
+
+크리에이티브 팀의 오퍼레이션 지식을 중앙화하고, 자연어 명령으로 파이프라인을 제어할 수 있는 AI 에이전트 인터페이스를 구축한다.
+
+> **목표: 무한 복제 가능한 Booth 브랜드 운영 구조 실현.**
+
+### 1.3 제품 정의
+
+| 항목 | 내용 |
+|------|------|
+| 제품명 | FromSeoul Ops Bot (코드명: OpsBot) |
+| 형태 | PWA 챗봇 (Gemini-style UI) |
+| LLM | GPT-4o mini (OpenAI) |
+| 배포 MVP | GitHub Pages + Vercel API Routes |
+| 배포 v1.0 | Vercel (단일 프로젝트, 커스텀 도메인) |
+| 접근 | Role-based 초대코드 + PIN |
+
+---
+
+## 2. 목표 (Goals)
+
+| # | 목표 | 성공 지표 | 우선순위 |
+|---|------|-----------|----------|
+| G1 | 레거시 지식 중앙화 | SOP 10건+ 인덱싱, 쿼리 응답 정확도 85%+ | P0 |
+| G2 | 온보딩 자동화 | 신규 외부 인력 온보딩 소요시간 50% 단축 | P0 |
+| G3 | 파이프라인 명령 실행 | 자연어로 5종 이상 명령 실행 가능 | P1 |
+| G4 | 접근 제어 | 4레벨 권한별 데이터 노출 100% 분리 | P0 |
+| G5 | 대시보드 연동 준비 | REST API 인터페이스 정의·문서화 완료 | P2 |
+
+---
+
+## 3. 사용자 및 역할 (Users & Roles)
+
+### 3.1 역할 정의
+
+| 레벨 | 역할 | 실제 대상 | 인원 |
+|------|------|-----------|------|
+| L0 | Owner | CPO (Milo) | 1명 |
+| L1 | Admin | 아트디렉터, 브랜드 매니저 | 4명 |
+| L2 | Member | 내부 모델러·리거 | 4명 |
+| L3 | External | 외부 프리랜서 | 20명+ |
+
+### 3.2 역할별 접근 권한
+
+| 데이터/기능 | L0 | L1 | L2 | L3 |
+|-------------|----|----|----|----|
+| 전체 파이프라인 현황 | ✅ | ✅ | ❌ | ❌ |
+| 브랜드별 비축량 조회 | ✅ | ✅ | 본인 브랜드 | ❌ |
+| 브랜드 매출·수익 데이터 | ✅ | ❌ | ❌ | ❌ |
+| 자신의 태스크 | ✅ | ✅ | ✅ | ✅ |
+| 전체 SOP 조회 | ✅ | ✅ | ✅ | ✅ |
+| 브랜드 레거시 문서 | ✅ | ✅ | ✅ | ❌ |
+| 인력 관리·초대 | ✅ | ✅ | ❌ | ❌ |
+| 기획 홀드·재개 명령 | ✅ | ✅ | ❌ | ❌ |
+| 시스템 설정 | ✅ | ❌ | ❌ | ❌ |
+| 지식베이스 편집 | ✅ | ✅ | ❌ | ❌ |
+
+### 3.3 인증 플로우
+
+\`\`\`
+[초대 링크 접속]
+       ↓
+[역할 선택 + 초대코드 입력]
+       ↓
+[PIN 4자리 설정 (최초 1회)]
+       ↓
+[JWT 발급] → 세션 시작
+       ↓
+[만료: Internal 7일 / External 24시간]
+\`\`\`
+
+---
+
+## 4. 핵심 기능 상세 (Feature Specs)
+
+### 4.1 채팅 UI (Gemini-style)
+
+#### 레이아웃
+\`\`\`
+┌─────────────────────────────────────────┐
+│  [≡]  OpsBot            [역할 뱃지] [⚙] │  ← 헤더
+├──────────┬──────────────────────────────┤
+│          │                              │
+│  대화    │   채팅 영역                  │
+│  히스토리│   (메시지 스트림)            │
+│          │                              │
+│  ─────   │                              │
+│  새 대화 │                              │
+│  + 버튼  │                              │
+│          ├──────────────────────────────┤
+│          │  [빠른 액션 칩들]            │
+│          │  ┌───────────────────────┐   │
+│          │  │  메시지 입력창    [↑] │   │
+│          │  └───────────────────────┘   │
+└──────────┴──────────────────────────────┘
+\`\`\`
+
+#### 빠른 액션 칩 (역할별)
+
+| 역할 | 기본 칩 |
+|------|---------|
+| L0/L1 | 오늘 파이프라인 현황 / OAS 비축량 / 기획 큐 확인 |
+| L2 | 내 태스크 확인 / QA 체크리스트 / 리깅 가이드 |
+| L3 | 온보딩 가이드 / 내 브리프 확인 / 납품 기준 |
+
+---
+
+### 4.2 지식저장소 (Knowledge Base)
+
+#### P0 인덱싱 우선순위 (개발 착수 전 작성 완료 필요)
+
+| 우선순위 | 문서 | 담당 |
+|----------|------|------|
+| 🔴 P0 | pipeline/01-stage-definitions.md | PM + AD |
+| 🔴 P0 | pipeline/02-qa-gates.md | AD |
+| 🔴 P0 | pipeline/03-buffer-rules.md | PM |
+| 🔴 P0 | onboarding/external-brief-template.md | Brand Managers |
+| 🟡 P1 | sop/modeling/pre-modeling-checklist.md | Modeler |
+| 🟡 P1 | sop/modeling/post-modeling-checklist.md | Modeler |
+| 🟡 P1 | sop/rigging/weight-physics-checklist.md | Rigger |
+| 🟡 P1 | sop/launch/booth-listing-sop.md | Brand Manager |
+| 🟢 P2 | brand/OAS/brand-identity.md | Brand Manager |
+| 🟢 P2 | brand/MRG/brand-identity.md | Brand Manager |
+| 🟢 P2 | brand/BTQ/brand-identity.md | Brand Manager |
+
+#### RAG 파이프라인
+
+\`\`\`
+[마크다운 저장] → [청크 512토큰] → [임베딩] → [Vercel KV]
+                                                      ↑
+[사용자 쿼리] → [쿼리 임베딩] → [유사도 검색 top-5] ─┘
+                                      ↓
+                              [GPT-4o mini + 컨텍스트]
+                                      ↓
+                              [스트리밍 응답]
+\`\`\`
+
+---
+
+### 4.3 파이프라인 명령 엔진
+
+#### MVP 명령 목록
+
+| 명령 예시 | 실행 | 권한 |
+|-----------|------|------|
+| "OAS 비축량 알려줘" | Buffer API 조회 | L1+ |
+| "[상품명] 모델링 완료 처리" | ClickUp 스테이지 업데이트 | L2+ |
+| "이번 주 출시 예정 리스트" | ClickUp 필터 쿼리 | L1+ |
+| "BTQ 기획 홀드" | 기획 플래그 OFF | L1+ |
+| "모델러 온보딩 링크 생성" | JWT 임시 링크 생성 | L1+ |
+
+#### 버퍼 임계값 로직 (확정: 3개)
+
+\`\`\`
+IF 브랜드별 QA통과~출시준비 완료 상품 >= 3
+  → 해당 브랜드 기획 자동 홀드
+  → Discord 알림: "⚠️ [브랜드] 버퍼 임계값 도달"
+
+IF 버퍼 < 2
+  → Discord 알림: "🔴 [브랜드] 버퍼 부족. 기획 재개 권고"
+\`\`\`
+
+---
+
+## 5. 기술 스택 (Tech Stack)
+
+| 구분 | 기술 | 이유 |
+|------|------|------|
+| Frontend | React + Vite + Tailwind | vocab-master 패턴 재사용 |
+| PWA | vite-plugin-pwa | 기존 검증 |
+| LLM | GPT-4o mini | 저비용, function calling 우수 |
+| 임베딩 | text-embedding-3-small | 저비용 벡터 검색 |
+| Vector Store | Vercel KV (Redis) | MVP: 별도 DB 없이 처리 |
+| 인증 | JWT (jose) | 서버리스 친화 |
+| 스트리밍 | SSE (Server-Sent Events) | 실시간 응답 |
+| 파이프라인 | ClickUp API v2 | 기존 툴 연동 |
+| 알림 | Discord Webhook | 버퍼 경보·온보딩 |
+
+---
+
+## 6. 보안 설계
+
+| 항목 | 방식 |
+|------|------|
+| 인증 | JWT HS256, 서버사이드 검증 |
+| API 키 | Vercel 환경변수 (클라이언트 노출 없음) |
+| L3 격리 | 시스템 프롬프트에 민감 정보 차단 레이어 |
+| 세션 만료 | Internal 7일 / External 24시간 |
+| 초대코드 | 1회용, 생성 후 48시간 만료 |
+
+---
+
+## 7. MVP 마일스톤
+
+| 마일스톤 | 기간 | 산출물 |
+|----------|------|--------|
+| M0 설계 확정 | 1일 | PRD 확정, API 스펙 |
+| M1 UI 쉘 | 3일 | 채팅 UI, 인증, PWA |
+| M2 지식베이스 | 3일 | RAG 파이프라인, P0 문서 4건 |
+| M3 명령 엔진 | 3일 | Intent 분류, ClickUp 연동 3종 |
+| M4 권한 시스템 | 2일 | JWT 4레벨 접근 제어 |
+| M5 배포 | 1일 | Vercel 배포, 도메인 |
+| **MVP 총** | **~13일** | |
+
+---
+
+## 8. 미결 사항
+
+| # | 질문 | 상태 |
+|---|------|------|
+| Q1 | LLM: GPT-4o mini | ✅ 확정 |
+| Q2 | 기획 중단 임계값: 3개 | ✅ 확정 |
+| Q3 | External 세션: 24시간 | ✅ 확정 |
+| Q4 | P0 SOP 문서 작성 착수 | 🔲 미착수 |
+| Q5 | 박범진 비축 트랙 분리 여부 | ❓ 미결 |
+| Q6 | ClickUp API 키 제공 | ❓ 미결 |
+| Q7 | Discord 알림 채널 ID | ❓ 미결 |
+| Q8 | Vercel 계정 (팀/개인) | ❓ 미결 |
+`;
+
+document.getElementById('content').innerHTML = marked.parse(md);
+
+// TOC 생성
+const headings = document.querySelectorAll('#content h2, #content h3');
+const toc = document.getElementById('toc');
+headings.forEach((h, i) => {
+  const id = 'heading-' + i;
+  h.id = id;
+  const a = document.createElement('a');
+  a.href = '#' + id;
+  a.textContent = h.textContent;
+  a.className = h.tagName.toLowerCase();
+  toc.appendChild(a);
+});
+</script>
+</body>
+</html>
+`;
