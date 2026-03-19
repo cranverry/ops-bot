@@ -5,6 +5,32 @@
 require('dotenv').config()
 const express = require('express')
 const path = require('path')
+const fs = require('fs')
+
+// ── Knowledge Base 로드 ──────────────────────────────────────────────────────
+function loadKnowledge() {
+  const knowledgeDir = path.join(__dirname, 'knowledge')
+  if (!fs.existsSync(knowledgeDir)) return ''
+
+  const docs = []
+  function walk(dir) {
+    for (const name of fs.readdirSync(dir)) {
+      if (name === 'README.md') continue
+      const full = path.join(dir, name)
+      if (fs.statSync(full).isDirectory()) { walk(full); continue }
+      if (!name.endsWith('.md')) continue
+      const content = fs.readFileSync(full, 'utf-8')
+      const rel = path.relative(knowledgeDir, full)
+      docs.push(`\n\n--- 문서: ${rel} ---\n${content}`)
+    }
+  }
+  walk(knowledgeDir)
+  return docs.join('\n')
+}
+
+const KNOWLEDGE_CONTEXT = loadKnowledge()
+const KNOWLEDGE_COUNT = (KNOWLEDGE_CONTEXT.match(/--- 문서:/g) || []).length
+console.log(`지식저장소: ${KNOWLEDGE_COUNT}건 로드됨`)
 
 const app = express()
 const PORT = 3999
@@ -22,11 +48,17 @@ app.use((req, res, next) => {
 app.use(express.static(path.join(__dirname, 'dist')))
 
 // ── 시스템 프롬프트 ─────────────────────────────────────────────────────────
-const SYSTEM_PROMPTS = {
+const BASE_PROMPTS = {
   owner:    '당신은 FromSeoul 크리에이티브팀의 운영 AI 에이전트입니다. OAS, MRG, BTQ 3개 Booth.pm 의상 브랜드를 운영합니다. 파이프라인 현황, SOP, 버퍼 관리를 도와줍니다. 한국어로 간결하게 답변하세요.',
   admin:    '당신은 FromSeoul 크리에이티브팀의 운영 AI 에이전트입니다. 파이프라인 현황, SOP, 버퍼 관리를 도와줍니다. 한국어로 답변하세요.',
   member:   '당신은 FromSeoul 크리에이티브팀 운영 어시스턴트입니다. SOP 조회와 태스크 관리를 도와줍니다. 한국어로 답변하세요.',
   external: '당신은 FromSeoul 외부 인력 가이드입니다. 온보딩 정보와 브리프만 안내합니다. 민감한 비즈니스 정보는 제공하지 않습니다. 한국어로 답변하세요.',
+}
+
+function getSystemPrompt(role) {
+  const base = BASE_PROMPTS[role] || BASE_PROMPTS.external
+  if (!KNOWLEDGE_CONTEXT) return base
+  return `${base}\n\n## 지식저장소 (FromSeoul 내부 문서)\n아래 문서를 참고하여 답변하세요:\n${KNOWLEDGE_CONTEXT}`
 }
 
 // ── POST /api/chat ───────────────────────────────────────────────────────────
@@ -41,7 +73,7 @@ app.post('/api/chat', async (req, res) => {
     return res.status(500).json({ error: 'OPENAI_API_KEY not set' })
   }
 
-  const systemPrompt = SYSTEM_PROMPTS[role] || SYSTEM_PROMPTS.external
+  const systemPrompt = getSystemPrompt(role)
   const openaiMessages = [{ role: 'system', content: systemPrompt }, ...messages]
 
   try {
