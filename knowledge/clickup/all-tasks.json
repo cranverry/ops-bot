@@ -1,0 +1,6527 @@
+{
+  "meta": {
+    "total": 432,
+    "updated": "2026-03-19"
+  },
+  "tasks": [
+    {
+      "id": "86ewfqumv",
+      "name": "[OAS01C] 유니티 패키징",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewfqumv"
+    },
+    {
+      "id": "86ewfby1t",
+      "name": "[OAS01C] 아바타 대응리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-02-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewfby1t"
+    },
+    {
+      "id": "86ew6k0xm",
+      "name": "출시",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-12",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0xm"
+    },
+    {
+      "id": "86ew6k0wm",
+      "name": "선공개",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-10",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0wm"
+    },
+    {
+      "id": "86ew6k0ug",
+      "name": "D-11 준비완료 점검",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0ug"
+    },
+    {
+      "id": "86ew6k0mg",
+      "name": "[판촉] 썸네일 제작",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-08",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0mg"
+    },
+    {
+      "id": "86ew6k0hj",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-09",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0hj"
+    },
+    {
+      "id": "86ew6k0gr",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "Phigh",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-04",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0gr"
+    },
+    {
+      "id": "86ew6k0fm",
+      "name": "[OAS01C] 시나노 리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-03",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0fm"
+    },
+    {
+      "id": "86ew6k0eb",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-02",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0eb"
+    },
+    {
+      "id": "86ew6k0aa",
+      "name": "텍스쳐링 (한동우)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "한동우"
+      ],
+      "due_date": "2026-01-20",
+      "tags": [
+        "텍스쳐링",
+        "한동우"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k0aa"
+    },
+    {
+      "id": "86ew6k07x",
+      "name": "계약 모델링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-01-17",
+      "tags": [
+        "모델링",
+        "박지환"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k07x"
+    },
+    {
+      "id": "86ew6k05w",
+      "name": "기획 및 삼면도",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-C(중) 02.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k05w"
+    },
+    {
+      "id": "86ew6k4fa",
+      "name": "[판촉] 썸네일 제작",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-22",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4fa"
+    },
+    {
+      "id": "86ew6k4f6",
+      "name": "기획 및 삼면도",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4f6"
+    },
+    {
+      "id": "86ew6k4f3",
+      "name": "[OAS01D] 대응리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-21",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4f3"
+    },
+    {
+      "id": "86ew6k4ew",
+      "name": "D-11 준비완료 점검",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4ew"
+    },
+    {
+      "id": "86ew6k4et",
+      "name": "[판촉] 움직이는 썸네일",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-23",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4et"
+    },
+    {
+      "id": "86ew6k4em",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-19",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4em"
+    },
+    {
+      "id": "86ew6k4e9",
+      "name": "선공개",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-24",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4e9"
+    },
+    {
+      "id": "86ew6k4e4",
+      "name": "텍스쳐링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-03",
+      "tags": [
+        "박지환",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4e4"
+    },
+    {
+      "id": "86ew6k4e3",
+      "name": "발매",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-26",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4e3"
+    },
+    {
+      "id": "86ew6k4dy",
+      "name": "쉐이더 및 컬러베리에이션 (With.박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-05",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4dy"
+    },
+    {
+      "id": "86ew6k4dw",
+      "name": "시나노 리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "윤건"
+      ],
+      "due_date": "2026-02-12",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4dw"
+    },
+    {
+      "id": "86ew6k4dk",
+      "name": "계약 모델링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-01-31",
+      "tags": [
+        "모델링",
+        "박지환"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4dk"
+    },
+    {
+      "id": "86ew6k4d1",
+      "name": "[판촉] 워킹 동영상",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-D(중) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-26",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4d1"
+    },
+    {
+      "id": "86ew6k4hr",
+      "name": "[판촉] 썸네일 제작",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-09",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4hr"
+    },
+    {
+      "id": "86ew6k4hm",
+      "name": "기획 및 삼면도",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-02",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4hm"
+    },
+    {
+      "id": "86ew6k4hf",
+      "name": "[OAS01E] 대응 리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-07",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4hf"
+    },
+    {
+      "id": "86ew6k4h8",
+      "name": "D-11 준비완료 점검",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-02",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4h8"
+    },
+    {
+      "id": "86ew6k4h6",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-11",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4h6"
+    },
+    {
+      "id": "86ew6k4h3",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4h3"
+    },
+    {
+      "id": "86ew6k4gx",
+      "name": "선공개",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-10",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4gx"
+    },
+    {
+      "id": "86ew6k4gw",
+      "name": "텍스쳐링(김지영)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-24",
+      "tags": [
+        "신규1",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4gw"
+    },
+    {
+      "id": "86ew6k4gp",
+      "name": "발매",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4gp"
+    },
+    {
+      "id": "86ew6k4gh",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4gh"
+    },
+    {
+      "id": "86ew6k4gf",
+      "name": "시나노 리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-03",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4gf"
+    },
+    {
+      "id": "86ew6k4gd",
+      "name": "외주 모델링(김지영)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-21",
+      "tags": [
+        "모델링",
+        "신규1"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4gd"
+    },
+    {
+      "id": "86ew6k4g9",
+      "name": "[판촉] 줌 인 영상",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-E (중상) 03.13",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-09",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k4g9"
+    },
+    {
+      "id": "86ew6kdpr",
+      "name": "D-11 준비완료 점검",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdpr"
+    },
+    {
+      "id": "86ew6kdpk",
+      "name": "[판촉] 즘 인 영상",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-23",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdpk"
+    },
+    {
+      "id": "86ew6kdpa",
+      "name": "텍스쳐링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-23",
+      "tags": [
+        "박지환",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdpa"
+    },
+    {
+      "id": "86ew6kdp8",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-25",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdp8"
+    },
+    {
+      "id": "86ew6kdp3",
+      "name": "시나노 리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영",
+        "윤건"
+      ],
+      "due_date": "2026-03-17",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdp3"
+    },
+    {
+      "id": "86ew6kdnq",
+      "name": "[OAS01F] 대응리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-22",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdnq"
+    },
+    {
+      "id": "86ew6kdnp",
+      "name": "모델링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-17",
+      "tags": [
+        "모델링",
+        "박지환"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdnp"
+    },
+    {
+      "id": "86ew6kdng",
+      "name": "[판촉] 섬네일 제작",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-25",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdng"
+    },
+    {
+      "id": "86ew6kdne",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-21",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdne"
+    },
+    {
+      "id": "86ew6kdnb",
+      "name": "발매",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-26",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdnb"
+    },
+    {
+      "id": "86ew6kdn9",
+      "name": "기획 및 삼면도",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-01",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdn9"
+    },
+    {
+      "id": "86ew6kdn1",
+      "name": "선공개",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-24",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdn1"
+    },
+    {
+      "id": "86ew6kdmx",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "EDEN OASIS",
+      "list": "OAS-1Q-F(중상)03.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-14",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6kdmx"
+    },
+    {
+      "id": "86ewufpn3",
+      "name": "기획 및 삼면도",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-06",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpn3"
+    },
+    {
+      "id": "86ewufpn1",
+      "name": "모델링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-03-22",
+      "tags": [
+        "모델링",
+        "박지환"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpn1"
+    },
+    {
+      "id": "86ewufpn0",
+      "name": "텍스쳐링(박지환)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-03-28",
+      "tags": [
+        "박지환",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpn0"
+    },
+    {
+      "id": "86ewufpmz",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-28",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpmz"
+    },
+    {
+      "id": "86ewufpmu",
+      "name": "D-11 준비완료 점검",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-30",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpmu"
+    },
+    {
+      "id": "86ewufpmg",
+      "name": "시나노 리깅",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-31",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpmg"
+    },
+    {
+      "id": "86ewufpme",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-04",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpme"
+    },
+    {
+      "id": "86ewufpm4",
+      "name": "[판촉] 즘 인 영상",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-06",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpm4"
+    },
+    {
+      "id": "86ewufpkd",
+      "name": "[판촉] 섬네일 제작",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-08",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpkd"
+    },
+    {
+      "id": "86ewufpk9",
+      "name": "선공개",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-07",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpk9"
+    },
+    {
+      "id": "86ewufpkb",
+      "name": "발매",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-09",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpkb"
+    },
+    {
+      "id": "86ewufpka",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "EDEN OASIS",
+      "list": "OAS-2Q-A 04.10",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-08",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewufpka"
+    },
+    {
+      "id": "86ew6k5qh",
+      "name": "기획 및 삼면도 (송다은)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-Backup-1(중)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-01-31",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k5qh"
+    },
+    {
+      "id": "86ew6k7bn",
+      "name": "텍스처링(신규 3)",
+      "folder": "EDEN OASIS",
+      "list": "OAS-Backup-2(중)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-20",
+      "tags": [
+        "신규3",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k7bn"
+    },
+    {
+      "id": "86ew6k77g",
+      "name": "기획 및 삼면도",
+      "folder": "EDEN OASIS",
+      "list": "OAS-Backup-2(중)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-26",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k77g"
+    },
+    {
+      "id": "86ewfnm96",
+      "name": "[BTQ01C] 대응리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-02-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewfnm96"
+    },
+    {
+      "id": "86ewc5842",
+      "name": "쉐이더 설정",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-01-27",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewc5842"
+    },
+    {
+      "id": "86ewa2b4c",
+      "name": "[BTQ01C] 모델 패키징",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-17",
+      "tags": [],
+      "description": "외주 수령 검수 \n사람마다 다르다. 5분 ~ 30분 (토탈 2~3시간)",
+      "url": "https://app.clickup.com/t/86ewa2b4c"
+    },
+    {
+      "id": "86ew6k8n0",
+      "name": "[판촉] 썸네일 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8n0"
+    },
+    {
+      "id": "86ew6k8mx",
+      "name": "기획 및 삼면도",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-02-19",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8mx"
+    },
+    {
+      "id": "86ew6k8mj",
+      "name": "D-10 준비완료 점검",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-10",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8mj"
+    },
+    {
+      "id": "86ew6k8ma",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8ma"
+    },
+    {
+      "id": "86ew6k8m1",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8m1"
+    },
+    {
+      "id": "86ew6k8ku",
+      "name": "선공개",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-17",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8ku"
+    },
+    {
+      "id": "86ew6k8kc",
+      "name": "출시",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-19",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8kc"
+    },
+    {
+      "id": "86ew6k8jy",
+      "name": "시나노 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-27",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8jy"
+    },
+    {
+      "id": "86ew6k8jw",
+      "name": "외주 모델링(이소연)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-C (중) 02.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-01-15",
+      "tags": [
+        "모델링",
+        "이소연"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8jw"
+    },
+    {
+      "id": "86ewt0k7k",
+      "name": "패키징",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-03",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewt0k7k"
+    },
+    {
+      "id": "86ew8n1d1",
+      "name": "[BTQ01D] 대응리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew8n1d1"
+    },
+    {
+      "id": "86ew6mb0r",
+      "name": "발매",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mb0r"
+    },
+    {
+      "id": "86ew6mb0q",
+      "name": "선공개",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-03",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mb0q"
+    },
+    {
+      "id": "86ew6mb0p",
+      "name": "[판촉] 워킹 동영상 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mb0p"
+    },
+    {
+      "id": "86ew6mb0m",
+      "name": "[판촉] 섬네일 제작 (도키)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-01",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mb0m"
+    },
+    {
+      "id": "86ew6mb06",
+      "name": "D-11 준비완료 점검",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-23",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mb06"
+    },
+    {
+      "id": "86ew6mb03",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-02",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mb03"
+    },
+    {
+      "id": "86ew6mazy",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-27",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mazy"
+    },
+    {
+      "id": "86ew6mazw",
+      "name": "시나노 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영",
+        "윤건"
+      ],
+      "due_date": "2026-02-23",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mazw"
+    },
+    {
+      "id": "86ew6mazt",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-25",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mazt"
+    },
+    {
+      "id": "86ew6mazq",
+      "name": "텍스쳐링(지환님 대체)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-23",
+      "tags": [
+        "박지환",
+        "신규3",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mazq"
+    },
+    {
+      "id": "86ew6mazm",
+      "name": "외주 모델링(황예원)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-19",
+      "tags": [
+        "모델링",
+        "신규3"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mazm"
+    },
+    {
+      "id": "86ew6mazb",
+      "name": "기획 및 삼면도 (AI)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-D (중) 03.06",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-02",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mazb"
+    },
+    {
+      "id": "86ew6mdhr",
+      "name": "발매",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdhr"
+    },
+    {
+      "id": "86ew6mdhf",
+      "name": "선공개",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-17",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdhf"
+    },
+    {
+      "id": "86ew6mdhc",
+      "name": "[BTQ01E] 대응 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-14",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdhc"
+    },
+    {
+      "id": "86ew6mdh6",
+      "name": "[판촉] 워킹 동영상 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdh6"
+    },
+    {
+      "id": "86ew6mdgz",
+      "name": "[판촉] 섬네일 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdgz"
+    },
+    {
+      "id": "86ew6mdgu",
+      "name": "D-11 준비완료 점검",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-10",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdgu"
+    },
+    {
+      "id": "86ew6mdgp",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdgp"
+    },
+    {
+      "id": "86ew6mdgg",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdgg"
+    },
+    {
+      "id": "86ew6mdge",
+      "name": "시나노 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영",
+        "윤건"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdge"
+    },
+    {
+      "id": "86ew6mdga",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-07",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdga"
+    },
+    {
+      "id": "86ew6mdg8",
+      "name": "텍스쳐링(태경)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "남태경",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdg8"
+    },
+    {
+      "id": "86ew6mdg5",
+      "name": "모델링(태경)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-03-02",
+      "tags": [
+        "남태경",
+        "모델링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdg5"
+    },
+    {
+      "id": "86ew6mdg1",
+      "name": "기획 및 삼면도 (AI)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-1Q-E (중) 03.20",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-09",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mdg1"
+    },
+    {
+      "id": "86ewu075p",
+      "name": "기획 및 삼면도 (AI)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-23",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu075p"
+    },
+    {
+      "id": "86ewu075m",
+      "name": "모델링(태경) -> '맹이'님(backup-02)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-03-16",
+      "tags": [
+        "남태경",
+        "모델링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu075m"
+    },
+    {
+      "id": "86ewu075g",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-18",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu075g"
+    },
+    {
+      "id": "86ewu075a",
+      "name": "텍스쳐링(태경)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [
+        "남태경",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu075a"
+    },
+    {
+      "id": "86ewu0756",
+      "name": "시나노 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "in progress",
+      "priority": "",
+      "assignees": [
+        "임주영",
+        "윤건"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu0756"
+    },
+    {
+      "id": "86ewu0755",
+      "name": "D-11 준비완료 점검",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-24",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu0755"
+    },
+    {
+      "id": "86ewu0754",
+      "name": "[BTQ02A] 대응 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-27",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu0754"
+    },
+    {
+      "id": "86ewu074t",
+      "name": "[판촉] 섬네일 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-29",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu074t"
+    },
+    {
+      "id": "86ewu074k",
+      "name": "선공개",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-31",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu074k"
+    },
+    {
+      "id": "86ewu074j",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-30",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu074j"
+    },
+    {
+      "id": "86ewu074h",
+      "name": "[판촉] 워킹 동영상 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-02",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu074h"
+    },
+    {
+      "id": "86ewu074g",
+      "name": "발매",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-02",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu074g"
+    },
+    {
+      "id": "86ewu074f",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-29",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu074f"
+    },
+    {
+      "id": "86ewu09u6",
+      "name": "기획 및 삼면도 (AI)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-03-09",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09u6"
+    },
+    {
+      "id": "86ewu09tz",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-01",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09tz"
+    },
+    {
+      "id": "86ewu09u0",
+      "name": "모델링(태경)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-03-30",
+      "tags": [
+        "남태경",
+        "모델링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09u0"
+    },
+    {
+      "id": "86ewu09tf",
+      "name": "텍스쳐링(태경)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-04-02",
+      "tags": [
+        "남태경",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09tf"
+    },
+    {
+      "id": "86ewu09tc",
+      "name": "시나노 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영",
+        "윤건"
+      ],
+      "due_date": "2026-04-02",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09tc"
+    },
+    {
+      "id": "86ewu09tb",
+      "name": "D-11 준비완료 점검",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-07",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09tb"
+    },
+    {
+      "id": "86ewu09t3",
+      "name": "[BTQ01E] 대응 리깅",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-10",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09t3"
+    },
+    {
+      "id": "86ewu09t2",
+      "name": "[판촉] 섬네일 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-12",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09t2"
+    },
+    {
+      "id": "86ewu09rm",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-12",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09rm"
+    },
+    {
+      "id": "86ewu09rk",
+      "name": "발매",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09rk"
+    },
+    {
+      "id": "86ewu09rj",
+      "name": "선공개",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-14",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09rj"
+    },
+    {
+      "id": "86ewu09rh",
+      "name": "[판촉] 워킹 동영상 제작",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09rh"
+    },
+    {
+      "id": "86ewu09rg",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-2Q-B (04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-13",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewu09rg"
+    },
+    {
+      "id": "86ew6k8vy",
+      "name": "기획 및 삼면도",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-Backup-1 (하)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-01-28",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8vy"
+    },
+    {
+      "id": "86ew6k8vn",
+      "name": "텍스처링(정수빈)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-Backup-1 (하)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [
+        "정수빈",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8vn"
+    },
+    {
+      "id": "86ew6k8vd",
+      "name": "외주 모델링(정수빈)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-Backup-1 (하)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-11",
+      "tags": [
+        "모델링",
+        "정수빈"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8vd"
+    },
+    {
+      "id": "86ew6k8xg",
+      "name": "텍스처링(신규 2 - \"맹이\"님)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-Backup-2 (중)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-03-20",
+      "tags": [
+        "신규2",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8xg"
+    },
+    {
+      "id": "86ew6k8x4",
+      "name": "외주 모델링(신규 2 - \"맹이\"님)",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-Backup-2 (중)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-15",
+      "tags": [
+        "모델링",
+        "신규2"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8x4"
+    },
+    {
+      "id": "86ew6k8w9",
+      "name": "기획 및 삼면도",
+      "folder": " BOUTIQUE SERINA",
+      "list": "BTQ-Backup-2 (중)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8w9"
+    },
+    {
+      "id": "86ewfnqud",
+      "name": "[MRG01A-2] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewfnqud"
+    },
+    {
+      "id": "86ewfnqeq",
+      "name": "[MRG01A-1] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-02-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewfnqeq"
+    },
+    {
+      "id": "86ewc5fv4",
+      "name": "[파츠] 의상 파츠 보조 섬네일",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-01-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewc5fv4"
+    },
+    {
+      "id": "86ewc5fgn",
+      "name": "[판촉] 360 회전 동영상",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-01-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewc5fgn"
+    },
+    {
+      "id": "86ewa2c3d",
+      "name": "[MRG01A] 패키징",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewa2c3d"
+    },
+    {
+      "id": "86ewa2bm0",
+      "name": "[판촉] 보조 썸네일 촬영",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewa2bm0"
+    },
+    {
+      "id": "86ewa2bg5",
+      "name": "[MRG01A]컬러프리팹화 (위임)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewa2bg5"
+    },
+    {
+      "id": "86ewa2ahm",
+      "name": "원화 및 블렌더 모델 사진, 섭페사진",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewa2ahm"
+    },
+    {
+      "id": "86ew8p2vz",
+      "name": "헤일로 에니메이션 제작",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew8p2vz"
+    },
+    {
+      "id": "86ew7zxbf",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "Purgent",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-03",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew7zxbf"
+    },
+    {
+      "id": "86ew7zx9p",
+      "name": "[판촉] 줌 인 영상",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew7zx9p"
+    },
+    {
+      "id": "86ew7zx8g",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-01-24",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew7zx8g"
+    },
+    {
+      "id": "86ew6z48w",
+      "name": "내부대응 (주영) (위임)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-31",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6z48w"
+    },
+    {
+      "id": "86ew6mg44",
+      "name": "아늑이 대응 리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-29",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mg44"
+    },
+    {
+      "id": "86ew6mfx0",
+      "name": "쉐이더 및 컬러 바리에이션",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진",
+        "임주영"
+      ],
+      "due_date": "2026-01-12",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mfx0"
+    },
+    {
+      "id": "86ew6mfvv",
+      "name": "시나노 리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-13",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6mfvv"
+    },
+    {
+      "id": "86ew6k8jf",
+      "name": "출시",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8jf"
+    },
+    {
+      "id": "86ew6k8je",
+      "name": "선공개",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-A (상) 02.05",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8je"
+    },
+    {
+      "id": "86ewkxg8p",
+      "name": "패키징",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-17",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewkxg8p"
+    },
+    {
+      "id": "86ewjw2jr",
+      "name": "기믹 제작",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "blocked",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewjw2jr"
+    },
+    {
+      "id": "86ew6k8pt",
+      "name": "[MRG01B] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-14",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8pt"
+    },
+    {
+      "id": "86ew6k8pp",
+      "name": "[판촉] 섬네일 제작",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8pp"
+    },
+    {
+      "id": "86ew6k8pd",
+      "name": "기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8pd"
+    },
+    {
+      "id": "86ew6k8p5",
+      "name": "D-14 준비완료 점검",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-11",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8p5"
+    },
+    {
+      "id": "86ew6k8p0",
+      "name": "[판촉] 줌 인 영상",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8p0"
+    },
+    {
+      "id": "86ew6k8nv",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nv"
+    },
+    {
+      "id": "86ew6k8nn",
+      "name": "선공개",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nn"
+    },
+    {
+      "id": "86ew6k8nk",
+      "name": "텍스쳐링(남태경)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-08",
+      "tags": [
+        "남태경",
+        "텍스쳐링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nk"
+    },
+    {
+      "id": "86ew6k8nh",
+      "name": "선공개",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-18",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nh"
+    },
+    {
+      "id": "86ew6k8nc",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-12",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nc"
+    },
+    {
+      "id": "86ew6k8n8",
+      "name": "시나노 리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-11",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8n8"
+    },
+    {
+      "id": "86ew6k8n5",
+      "name": "내부 모델링 (주:남태경/부:한동우)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "남태경"
+      ],
+      "due_date": "2026-02-03",
+      "tags": [
+        "남태경",
+        "모델링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8n5"
+    },
+    {
+      "id": "86ew6k8my",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-B (상) 02.27",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-18",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8my"
+    },
+    {
+      "id": "86ew6k8tm",
+      "name": "선공개",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-16",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8tm"
+    },
+    {
+      "id": "86ew6k8td",
+      "name": "출시",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-18",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8td"
+    },
+    {
+      "id": "86ew6k8ta",
+      "name": "[판촉] 줌 인 영상",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8ta"
+    },
+    {
+      "id": "86ew6k8t1",
+      "name": "[판촉] 섬네일 제작",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8t1"
+    },
+    {
+      "id": "86ew6k8rx",
+      "name": "[판촉] 움직이는 섬네일",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-15",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8rx"
+    },
+    {
+      "id": "86ew6k8rr",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-08",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8rr"
+    },
+    {
+      "id": "86ew6k8rk",
+      "name": "[MRG01C] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8rk"
+    },
+    {
+      "id": "86ew6k8rb",
+      "name": "시나노 리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-25",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8rb"
+    },
+    {
+      "id": "86ew6k8r7",
+      "name": "[판촉] 워킹 동영상 제작",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-17",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8r7"
+    },
+    {
+      "id": "86ew6k8r0",
+      "name": "기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-01-26",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8r0"
+    },
+    {
+      "id": "86ew6k8qu",
+      "name": "텍스쳐링(한동우)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "한동우"
+      ],
+      "due_date": "2026-02-15",
+      "tags": [
+        "텍스쳐링",
+        "한동우"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8qu"
+    },
+    {
+      "id": "86ew6k8qj",
+      "name": "내부 모델링(한동우)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "한동우"
+      ],
+      "due_date": "2026-02-11",
+      "tags": [
+        "모델링",
+        "한동우"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8qj"
+    },
+    {
+      "id": "86ew6k8qd",
+      "name": "D-14 준비완료 점검",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-1Q-C [바니걸] (상) 03.19",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-10",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8qd"
+    },
+    {
+      "id": "86ewnbcb6",
+      "name": "[MRG02A] 패키징",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-31",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbcb6"
+    },
+    {
+      "id": "86ewhveax",
+      "name": "[MRG02A] 기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhveax"
+    },
+    {
+      "id": "86ewhve1b",
+      "name": "[MRG02A] 모델링",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "한동우"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhve1b"
+    },
+    {
+      "id": "86ewhvdr2",
+      "name": "[MRG02A] 시나노리깅",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhvdr2"
+    },
+    {
+      "id": "86ewhvdgv",
+      "name": "[MRG02A] 텍스쳐링 (컬러배리에이션포함)",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhvdgv"
+    },
+    {
+      "id": "86ewhvd91",
+      "name": "[MRG02A] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhvd91"
+    },
+    {
+      "id": "86ewhvd4z",
+      "name": "[MRG02A] WIP (썸네일포함)",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-31",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhvd4z"
+    },
+    {
+      "id": "86ewhvcv2",
+      "name": "[MRG02A] 출시",
+      "folder": "MIRAGE by eden",
+      "list": "[테크웨어] MRG-2Q-A (상) 04.02",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhvcv2"
+    },
+    {
+      "id": "86ewnbchv",
+      "name": "[MRG02B] 기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "[아카데미] MRG-2Q-B (중상) 04.16",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-06",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbchv"
+    },
+    {
+      "id": "86ewnbcft",
+      "name": "[MRG02B] 모델링",
+      "folder": "MIRAGE by eden",
+      "list": "[아카데미] MRG-2Q-B (중상) 04.16",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbcft"
+    },
+    {
+      "id": "86ewnbcdb",
+      "name": "[MRG02B] 시나노리깅",
+      "folder": "MIRAGE by eden",
+      "list": "[아카데미] MRG-2Q-B (중상) 04.16",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbcdb"
+    },
+    {
+      "id": "86ewnbccd",
+      "name": "[MRG02B] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "[아카데미] MRG-2Q-B (중상) 04.16",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbccd"
+    },
+    {
+      "id": "86ewnbc8x",
+      "name": "[MRG02B] WIP (썸네일포함)",
+      "folder": "MIRAGE by eden",
+      "list": "[아카데미] MRG-2Q-B (중상) 04.16",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-14",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbc8x"
+    },
+    {
+      "id": "86ewnbc7z",
+      "name": "[MRG02B] 출시",
+      "folder": "MIRAGE by eden",
+      "list": "[아카데미] MRG-2Q-B (중상) 04.16",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbc7z"
+    },
+    {
+      "id": "86ewnw800",
+      "name": "[MRG02C] 패키징",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw800"
+    },
+    {
+      "id": "86ewnbdq9",
+      "name": "[MRG02C] 기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbdq9"
+    },
+    {
+      "id": "86ewnbdq5",
+      "name": "[MRG02C] 모델링",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbdq5"
+    },
+    {
+      "id": "86ewnbdpy",
+      "name": "[MRG02C] WIP (썸네일포함)",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbdpy"
+    },
+    {
+      "id": "86ewnbdpw",
+      "name": "[MRG02C] 시나노리깅",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-18",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbdpw"
+    },
+    {
+      "id": "86ewnbdpv",
+      "name": "[MRG02C] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbdpv"
+    },
+    {
+      "id": "86ewnbdpu",
+      "name": "[MRG02C] 출시",
+      "folder": "MIRAGE by eden",
+      "list": "[간호사] MRG-2Q-C (중상) 04.30",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-04-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnbdpu"
+    },
+    {
+      "id": "86ewnw436",
+      "name": "[MRG02D] 기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw436"
+    },
+    {
+      "id": "86ewnw435",
+      "name": "[MRG02D] 모델링",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-25",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw435"
+    },
+    {
+      "id": "86ewnw42y",
+      "name": "[MRG02D] WIP (썸네일포함)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-05-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw42y"
+    },
+    {
+      "id": "86ewnw42x",
+      "name": "[MRG02D] 출시",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-05-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw42x"
+    },
+    {
+      "id": "86ewnw42w",
+      "name": "[MRG02D] 시나노리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw42w"
+    },
+    {
+      "id": "86ewnw42v",
+      "name": "[MRG02D] 텍스쳐링 (컬러배리에이션 포함)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-05",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw42v"
+    },
+    {
+      "id": "86ewnw42u",
+      "name": "[MRG02D] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-D (중상) 05.14",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-10",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw42u"
+    },
+    {
+      "id": "86ewnw97h",
+      "name": "[MRG02E] 기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw97h"
+    },
+    {
+      "id": "86ewnw97e",
+      "name": "[MRG02E] 모델링",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw97e"
+    },
+    {
+      "id": "86ewnw97a",
+      "name": "[MRG02E] 시나노리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-05-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw97a"
+    },
+    {
+      "id": "86ewnw96y",
+      "name": "[MRG02E] 텍스쳐링 (컬러배리에이션 포함)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw96y"
+    },
+    {
+      "id": "86ewnw96x",
+      "name": "[MRG02E] 출시",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-05-27",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw96x"
+    },
+    {
+      "id": "86ewnw96w",
+      "name": "[MRG02E] 패키징",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-05-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw96w"
+    },
+    {
+      "id": "86ewnw96v",
+      "name": "[MRG02E] WIP (썸네일포함)",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-05-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw96v"
+    },
+    {
+      "id": "86ewnw96u",
+      "name": "[MRG02E] 대응리깅",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-2Q-E (중상) 05.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-05-24",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewnw96u"
+    },
+    {
+      "id": "86ew6k8x2",
+      "name": "기획 및 삼면도",
+      "folder": "MIRAGE by eden",
+      "list": "MRG-Backup-1",
+      "status": "blocked",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-30",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8x2"
+    },
+    {
+      "id": "86ew6k8qv",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-02",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8qv"
+    },
+    {
+      "id": "86ew6k8qn",
+      "name": "출시",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-20",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8qn"
+    },
+    {
+      "id": "86ew6k8qa",
+      "name": "[판촉] 썸네일 제작",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-17",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8qa"
+    },
+    {
+      "id": "86ew6k8px",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-02-11",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8px"
+    },
+    {
+      "id": "86ew6k8pu",
+      "name": "1차 대응 리깅 [Eden Morpher]",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-02-12",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8pu"
+    },
+    {
+      "id": "86ew6k8pq",
+      "name": "[YMY-1Q-A] 시나노 리깅",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-03",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8pq"
+    },
+    {
+      "id": "86ew6k8p6",
+      "name": "기획 및 삼면도",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8p6"
+    },
+    {
+      "id": "86ew6k8p2",
+      "name": "텍스쳐링(황예원)",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-01-29",
+      "tags": [
+        "텍스쳐링",
+        "황예원"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8p2"
+    },
+    {
+      "id": "86ew6k8nr",
+      "name": "외주 모델링(황예원)",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-01-27",
+      "tags": [
+        "모델링",
+        "황예원"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nr"
+    },
+    {
+      "id": "86ew6k8nf",
+      "name": "D-11 준비완료 점검",
+      "folder": "YUMEYA",
+      "list": "NEW-1Q-A (하) 02.21",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew6k8nf"
+    },
+    {
+      "id": "86ewpxk4y",
+      "name": "외주 모델링(황예원)",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-10",
+      "tags": [
+        "모델링"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk4y"
+    },
+    {
+      "id": "86ewpxk4w",
+      "name": "텍스쳐링(황예원)",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-12",
+      "tags": [
+        "텍스쳐링",
+        "황예원"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk4w"
+    },
+    {
+      "id": "86ewpxk4t",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-26",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk4t"
+    },
+    {
+      "id": "86ewpxk4n",
+      "name": "[YMY-1Q-B] 시나노 리깅",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-02-24",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk4n"
+    },
+    {
+      "id": "86ewpxk3z",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk3z"
+    },
+    {
+      "id": "86ewpxk3m",
+      "name": "출시",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-06",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk3m"
+    },
+    {
+      "id": "86ewpxk3k",
+      "name": "D-11 준비완료 점검",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk3k"
+    },
+    {
+      "id": "86ewpxk3j",
+      "name": "기획 및 삼면도",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk3j"
+    },
+    {
+      "id": "86ewpxk3g",
+      "name": "[판촉] 썸네일 제작",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk3g"
+    },
+    {
+      "id": "86ewpxk3h",
+      "name": "1차 대응 리깅 [Eden Morpher]",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-B (하) 03.07",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "윤건"
+      ],
+      "due_date": "2026-03-05",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxk3h"
+    },
+    {
+      "id": "86ewpxp43",
+      "name": "텍스쳐링(정수빈)",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-03-16",
+      "tags": [
+        "텍스쳐링",
+        "황예원"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp43"
+    },
+    {
+      "id": "86ewpxp41",
+      "name": "쉐이더 및 컬러베리에이션",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-16",
+      "tags": [
+        "쉐이더 및 컬러베리"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp41"
+    },
+    {
+      "id": "86ewpxp40",
+      "name": "외주 모델링(정수빈)",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [
+        "모델링",
+        "황예원"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp40"
+    },
+    {
+      "id": "86ewpxp3q",
+      "name": "[YMY-1Q-A] 시나노 리깅",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "임주영",
+        "윤건"
+      ],
+      "due_date": "2026-03-17",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3q"
+    },
+    {
+      "id": "86ewpxp3p",
+      "name": "[판촉] WIP 이미지 촬영",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-22",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3p"
+    },
+    {
+      "id": "86ewpxp3h",
+      "name": "[판촉] 썸네일 제작",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-26",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3h"
+    },
+    {
+      "id": "86ewpxp3g",
+      "name": "1차 대응 리깅 [Eden Morpher]",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "in progress",
+      "priority": "",
+      "assignees": [
+        "윤건"
+      ],
+      "due_date": "2026-03-22",
+      "tags": [
+        "리깅"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3g"
+    },
+    {
+      "id": "86ewpxp3d",
+      "name": "기획 및 삼면도",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "",
+      "tags": [
+        "기획 및 삼면도"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3d"
+    },
+    {
+      "id": "86ewpxp3e",
+      "name": "D-11 준비완료 점검",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "",
+      "tags": [
+        "점검"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3e"
+    },
+    {
+      "id": "86ewpxp3f",
+      "name": "출시",
+      "folder": "YUMEYA",
+      "list": "YMY 1Q-C (하) 03.28",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-27",
+      "tags": [
+        "판촉"
+      ],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewpxp3f"
+    },
+    {
+      "id": "86ew93yz5",
+      "name": "리깅",
+      "folder": "헤어브랜드",
+      "list": "List",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-02-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew93yz5"
+    },
+    {
+      "id": "86ew93xhf",
+      "name": "외주 모델링",
+      "folder": "헤어브랜드",
+      "list": "List",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "최석현"
+      ],
+      "due_date": "2026-02-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ew93xhf"
+    },
+    {
+      "id": "86ewh8mff",
+      "name": "OAS Backup-14 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mff"
+    },
+    {
+      "id": "86ewh8mdb",
+      "name": "OAS Backup-13 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mdb"
+    },
+    {
+      "id": "86ewh8m9t",
+      "name": "OAS Backup-12 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-23",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8m9t"
+    },
+    {
+      "id": "86ewh8m6q",
+      "name": "OAS Backup-11 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8m6q"
+    },
+    {
+      "id": "86ewh8m2u",
+      "name": "OAS Backup-10 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8m2u"
+    },
+    {
+      "id": "86ewh8m0m",
+      "name": "OAS Backup-09 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8m0m"
+    },
+    {
+      "id": "86ewh8kyy",
+      "name": "OAS Backup-08 외주 삼면도 (미정)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8kyy"
+    },
+    {
+      "id": "86ewh8krq",
+      "name": "OAS Backup-07 외주 삼면도 (가죽벨벳양키)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8krq"
+    },
+    {
+      "id": "86ewh8knw",
+      "name": "OAS Backup-06 외주 삼면도 (악동스트릿)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8knw"
+    },
+    {
+      "id": "86ewgzf0w",
+      "name": "OAS Backup-05 외주 삼면도 (셔츠펑크)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "OAS (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzf0w"
+    },
+    {
+      "id": "86eww9keg",
+      "name": "MRG Backup-02 외주 삼면도",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-25",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86eww9keg"
+    },
+    {
+      "id": "86eww8pqy",
+      "name": "MRG Backup-01 외주 삼면도",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86eww8pqy"
+    },
+    {
+      "id": "86eww8p87",
+      "name": "MRG 2Q-E 외주 삼면도",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-18",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86eww8p87"
+    },
+    {
+      "id": "86eww8p3e",
+      "name": "MRG 2Q-D 외주 삼면도",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86eww8p3e"
+    },
+    {
+      "id": "86eww8nkg",
+      "name": "MRG 2Q-C 외주 삼면도",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86eww8nkg"
+    },
+    {
+      "id": "86ewh8mtq",
+      "name": "MRG-PL-010 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mtq"
+    },
+    {
+      "id": "86ewh8mte",
+      "name": "MRG-PL-009 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-14",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mte"
+    },
+    {
+      "id": "86ewh8mt5",
+      "name": "MRG-PL-008 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mt5"
+    },
+    {
+      "id": "86ewh8mrw",
+      "name": "MRG-PL-007 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mrw"
+    },
+    {
+      "id": "86ewh8mrt",
+      "name": "MRG-PL-006 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-23",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mrt"
+    },
+    {
+      "id": "86ewh8mrf",
+      "name": "MRG-PL-005 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mrf"
+    },
+    {
+      "id": "86ewh8mr4",
+      "name": "MRG Backup-02 키워드기획",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mr4"
+    },
+    {
+      "id": "86ewh8mr0",
+      "name": "MRG 2Q-E 키워드기획  [05.28 발매]",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mr0"
+    },
+    {
+      "id": "86ewh8mqr",
+      "name": "MRG Backup-01 키워드기획",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mqr"
+    },
+    {
+      "id": "86ewh8mqm",
+      "name": "MRG 2Q-D 키워드기획  [05.14 발매]",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "MRG (임주영)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mqm"
+    },
+    {
+      "id": "86ewx4tg2",
+      "name": "BTQ-Backup-03",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewx4tg2"
+    },
+    {
+      "id": "86ewx4t16",
+      "name": "BTQ-2Q-F (05.04~05.08)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewx4t16"
+    },
+    {
+      "id": "86ewx4j2j",
+      "name": "BTQ-Backup-02",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewx4j2j"
+    },
+    {
+      "id": "86ewx4hux",
+      "name": "BTQ-Backup-01",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewx4hux"
+    },
+    {
+      "id": "86ewh8myx",
+      "name": "BTQ-PL-010 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-20",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8myx"
+    },
+    {
+      "id": "86ewh8myg",
+      "name": "BTQ-PL-009 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8myg"
+    },
+    {
+      "id": "86ewh8mya",
+      "name": "BTQ-PL-008 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-06",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mya"
+    },
+    {
+      "id": "86ewh8my5",
+      "name": "BTQ-PL-007 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8my5"
+    },
+    {
+      "id": "86ewh8mxt",
+      "name": "OAS-PL-006 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-22",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mxt"
+    },
+    {
+      "id": "86ewh8mxh",
+      "name": "BTQ-2Q-E (중) (04.20~04.24)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-23",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mxh"
+    },
+    {
+      "id": "86ewh8mx8",
+      "name": "BTQ-2Q-D (중) (04.06~04.10)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mx8"
+    },
+    {
+      "id": "86ewh8mwy",
+      "name": "BTQ-2Q-C (중) (03.23~03.27)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mwy"
+    },
+    {
+      "id": "86ewh8mwn",
+      "name": "BTQ-PL-002 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mwn"
+    },
+    {
+      "id": "86ewh8mwg",
+      "name": "BTQ Backup-01 외주 삼면도 (니트데이트)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "BTQ (최현세, 남태경)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mwg"
+    },
+    {
+      "id": "86ewh8n0u",
+      "name": "YMY-PL-002 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n0u"
+    },
+    {
+      "id": "86ewh8n0r",
+      "name": "YMY-PL-003 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n0r"
+    },
+    {
+      "id": "86ewh8n0m",
+      "name": "YMY-PL-004 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n0m"
+    },
+    {
+      "id": "86ewh8n0b",
+      "name": "YMY-PL-005 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n0b"
+    },
+    {
+      "id": "86ewh8n07",
+      "name": "YMY-PL-006 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n07"
+    },
+    {
+      "id": "86ewh8n05",
+      "name": "YMY-PL-007 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n05"
+    },
+    {
+      "id": "86ewh8mzy",
+      "name": "YMY-PL-008 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mzy"
+    },
+    {
+      "id": "86ewh8mzr",
+      "name": "YMY-PL-009 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mzr"
+    },
+    {
+      "id": "86ewh8mzk",
+      "name": "YMY-PL-010 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "YMY (최석현)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8mzk"
+    },
+    {
+      "id": "86ewh8n37",
+      "name": "Backup-02 외주 삼면도 (프라다수트)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n37"
+    },
+    {
+      "id": "86ewh8n2y",
+      "name": "Backup-04 외주 삼면도 (테크웨어)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n2y"
+    },
+    {
+      "id": "86ewh8n2q",
+      "name": "NEW-PL-004 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n2q"
+    },
+    {
+      "id": "86ewh8n2j",
+      "name": "NEW-PL-005 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n2j"
+    },
+    {
+      "id": "86ewh8n2c",
+      "name": "NEW-PL-006 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n2c"
+    },
+    {
+      "id": "86ewh8n25",
+      "name": "NEW-PL-007 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n25"
+    },
+    {
+      "id": "86ewh8n20",
+      "name": "NEW-PL-008 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n20"
+    },
+    {
+      "id": "86ewh8n1t",
+      "name": "NEW-PL-009 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n1t"
+    },
+    {
+      "id": "86ewh8n1n",
+      "name": "NEW-PL-010 (중) ",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n1n"
+    },
+    {
+      "id": "86ewh8n1j",
+      "name": "Backup-03 외주 삼면도 (로리타드레스)",
+      "folder": "기획 유닛 (아웃소싱)",
+      "list": "NEW (박범진)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewh8n1j"
+    },
+    {
+      "id": "86ewgzegp",
+      "name": "OAS-005",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "박지환 (인하우스)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-23",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzegp"
+    },
+    {
+      "id": "86ewgzegk",
+      "name": "OAS-004",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "박지환 (인하우스)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-10",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzegk"
+    },
+    {
+      "id": "86ewgzegg",
+      "name": "OAS-2Q-C ",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "박지환 (인하우스)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-31",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzegg"
+    },
+    {
+      "id": "86ewgzegb",
+      "name": "OAS-2Q-B 트레이닝복",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "박지환 (인하우스)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzegb"
+    },
+    {
+      "id": "86ewgzefv",
+      "name": "OAS-001",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "박지환 (인하우스)",
+      "status": "complete",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-05",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzefv"
+    },
+    {
+      "id": "86ewgzekn",
+      "name": "BTQ-2Q-E (중) (04.27~05.12)",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "남태경",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzekn"
+    },
+    {
+      "id": "86ewgzcar",
+      "name": "MRG-004",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "남태경",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzcar"
+    },
+    {
+      "id": "86ewgzc90",
+      "name": "BTQ 2Q-C (~04.14)",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "남태경",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzc90"
+    },
+    {
+      "id": "86ewgzc7h",
+      "name": "MRG 2Q-B",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "남태경",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzc7h"
+    },
+    {
+      "id": "86ewgzeea",
+      "name": "MRG-009",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "한동우",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzeea"
+    },
+    {
+      "id": "86ewgzee7",
+      "name": "MRG-007",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "한동우",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzee7"
+    },
+    {
+      "id": "86ewgzee4",
+      "name": "MRG-005",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "한동우",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzee4"
+    },
+    {
+      "id": "86ewgzee1",
+      "name": "MRG 2Q-D",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "한동우",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-31",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzee1"
+    },
+    {
+      "id": "86ewgzedy",
+      "name": "MRG-001 (6_MRG 2Q-A_Neo_Squama)",
+      "folder": "생산 유닛 (인하우스)",
+      "list": "한동우",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "한동우"
+      ],
+      "due_date": "2026-03-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzedy"
+    },
+    {
+      "id": "86ewgzfad",
+      "name": "OAS Backup-02",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "OAS",
+      "status": "complete",
+      "priority": "",
+      "assignees": [
+        "박범진"
+      ],
+      "due_date": "2026-03-10",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfad"
+    },
+    {
+      "id": "86ewgzfaj",
+      "name": "BTQ-010",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "BTQ",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfaj"
+    },
+    {
+      "id": "86ewgzfah",
+      "name": "BTQ-2Q-F (05.11~05.26)",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "BTQ",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-25",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfah"
+    },
+    {
+      "id": "86ewgzfag",
+      "name": "BTQ-2Q-D (04.13~04.28)",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "BTQ",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-27",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfag"
+    },
+    {
+      "id": "86ewgzf9z",
+      "name": "BTQ 2Q-B (~03.31)",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "BTQ",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzf9z"
+    },
+    {
+      "id": "86ewgzfbg",
+      "name": "YMY-005",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "Backup",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfbg"
+    },
+    {
+      "id": "86ewgzfbe",
+      "name": "YMY-004",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "Backup",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfbe"
+    },
+    {
+      "id": "86ewgzfbc",
+      "name": "YMY-003",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "Backup",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfbc"
+    },
+    {
+      "id": "86ewgzfbb",
+      "name": "YMY-002",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "Backup",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfbb"
+    },
+    {
+      "id": "86ewgzfba",
+      "name": "YMY-001",
+      "folder": "생산 유닛 (아웃소싱)",
+      "list": "Backup",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfba"
+    },
+    {
+      "id": "86ewgzfk1",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-A (04.10)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfk1"
+    },
+    {
+      "id": "86ewgzfjy",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-A (04.10)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfjy"
+    },
+    {
+      "id": "86ewgzfj8",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-A (04.10)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-06",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfj8"
+    },
+    {
+      "id": "86ewgzfhg",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-A (04.10)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewgzfhg"
+    },
+    {
+      "id": "86ewhty6x",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-B (04.24)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhty6x"
+    },
+    {
+      "id": "86ewhty6m",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-B (04.24)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-22",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhty6m"
+    },
+    {
+      "id": "86ewhty6c",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-B (04.24)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-24",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhty6c"
+    },
+    {
+      "id": "86ewhty69",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-B (04.24)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-17",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhty69"
+    },
+    {
+      "id": "86ewhtykk",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-C (05.08)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-05",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtykk"
+    },
+    {
+      "id": "86ewhtyka",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-C (05.08)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-06",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyka"
+    },
+    {
+      "id": "86ewhtyk4",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-C (05.08)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-08",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyk4"
+    },
+    {
+      "id": "86ewhtyk1",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-C (05.08)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyk1"
+    },
+    {
+      "id": "86ewhtymj",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-D (05.22)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-18",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtymj"
+    },
+    {
+      "id": "86ewhtyma",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-D (05.22)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyma"
+    },
+    {
+      "id": "86ewhtym0",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-D (05.22)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtym0"
+    },
+    {
+      "id": "86ewhtykx",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-D (05.22)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-14",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtykx"
+    },
+    {
+      "id": "86ewhtyng",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-E (06.05)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyng"
+    },
+    {
+      "id": "86ewhtyn7",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-E (06.05)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyn7"
+    },
+    {
+      "id": "86ewhtymz",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-E (06.05)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtymz"
+    },
+    {
+      "id": "86ewhtymw",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-E (06.05)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtymw"
+    },
+    {
+      "id": "86ewhtypm",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-F (06.19)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtypm"
+    },
+    {
+      "id": "86ewhtyp7",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-F (06.19)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyp7"
+    },
+    {
+      "id": "86ewhtynz",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-F (06.19)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-18",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtynz"
+    },
+    {
+      "id": "86ewhtynv",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "OAS-2Q-F (06.19)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtynv"
+    },
+    {
+      "id": "86ewhtywv",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtywv"
+    },
+    {
+      "id": "86ewhtywg",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-31",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtywg"
+    },
+    {
+      "id": "86ewhtyw7",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyw7"
+    },
+    {
+      "id": "86ewhtyw4",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-A (04.03)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyw4"
+    },
+    {
+      "id": "86ewhtyy6",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-B (04.01~04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyy6"
+    },
+    {
+      "id": "86ewhtyxx",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-B (04.01~04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-14",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyxx"
+    },
+    {
+      "id": "86ewhtyxf",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-B (04.01~04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyxf"
+    },
+    {
+      "id": "86ewhtyxc",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-B (04.01~04.17)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyxc"
+    },
+    {
+      "id": "86ewhtyzt",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-C (05.01)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-27",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyzt"
+    },
+    {
+      "id": "86ewhtyz4",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-C (05.01)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyz4"
+    },
+    {
+      "id": "86ewhtyyv",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-C (05.01)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyyv"
+    },
+    {
+      "id": "86ewhtyym",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-C (05.01)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-23",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyym"
+    },
+    {
+      "id": "86ewhtyzu",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-D (04.29~05.15)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyzu"
+    },
+    {
+      "id": "86ewhtyzk",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-D (04.29~05.15)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyzk"
+    },
+    {
+      "id": "86ewhtyzc",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-D (04.29~05.15)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-14",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyzc"
+    },
+    {
+      "id": "86ewhtyz9",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-D (04.29~05.15)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyz9"
+    },
+    {
+      "id": "86ewhtz0w",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-E (05.13~05.29)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-25",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz0w"
+    },
+    {
+      "id": "86ewhtz0k",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-E (05.13~05.29)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-26",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz0k"
+    },
+    {
+      "id": "86ewhtz03",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-E (05.13~05.29)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz03"
+    },
+    {
+      "id": "86ewhtyzx",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-E (05.13~05.29)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtyzx"
+    },
+    {
+      "id": "86ewhtz1z",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-F (05.27~06.12)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-08",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz1z"
+    },
+    {
+      "id": "86ewhtz1k",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-F (05.27~06.12)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz1k"
+    },
+    {
+      "id": "86ewhtz19",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-F (05.27~06.12)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz19"
+    },
+    {
+      "id": "86ewhtz12",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "BTQ-2Q-F (05.27~06.12)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz12"
+    },
+    {
+      "id": "86ewhtz6y",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "[테크웨어] MRG-2Q-A (04.02)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz6y"
+    },
+    {
+      "id": "86ewhtz5z",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "[테크웨어] MRG-2Q-A (04.02)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-03-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz5z"
+    },
+    {
+      "id": "86ewhtz5j",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "[테크웨어] MRG-2Q-A (04.02)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz5j"
+    },
+    {
+      "id": "86ewhtz5d",
+      "name": "[MRG 2Q-A] 리깅",
+      "folder": "출시 유닛",
+      "list": "[테크웨어] MRG-2Q-A (04.02)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-03-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz5d"
+    },
+    {
+      "id": "86ewhtz90",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "[아카데미] MRG-2Q-B (04.16)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-12",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz90"
+    },
+    {
+      "id": "86ewhtz82",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "[아카데미] MRG-2Q-B (04.16)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz82"
+    },
+    {
+      "id": "86ewhtz7n",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "[아카데미] MRG-2Q-B (04.16)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz7n"
+    },
+    {
+      "id": "86ewhtz7d",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "[아카데미] MRG-2Q-B (04.16)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz7d"
+    },
+    {
+      "id": "86ewhtzat",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "[간호사] MRG-2Q-C (04.30)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzat"
+    },
+    {
+      "id": "86ewhtza4",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "[간호사] MRG-2Q-C (04.30)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-29",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtza4"
+    },
+    {
+      "id": "86ewhtz9p",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "[간호사] MRG-2Q-C (04.30)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz9p"
+    },
+    {
+      "id": "86ewhtz9e",
+      "name": "[MRG 2Q-C] 리깅",
+      "folder": "출시 유닛",
+      "list": "[간호사] MRG-2Q-C (04.30)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [
+        "임주영"
+      ],
+      "due_date": "2026-04-25",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtz9e"
+    },
+    {
+      "id": "86ewhtzbm",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-D (05.14)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-10",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzbm"
+    },
+    {
+      "id": "86ewhtzb2",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-D (05.14)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzb2"
+    },
+    {
+      "id": "86ewhtzah",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-D (05.14)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzah"
+    },
+    {
+      "id": "86ewhtzaf",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-D (05.14)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-06",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzaf"
+    },
+    {
+      "id": "86ewhucpw",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-E (05.28)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-13",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhucpw"
+    },
+    {
+      "id": "86ewhtzcg",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-E (05.28)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-24",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzcg"
+    },
+    {
+      "id": "86ewhtzbx",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-E (05.28)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-25",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzbx"
+    },
+    {
+      "id": "86ewhtzbn",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-E (05.28)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-27",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzbn"
+    },
+    {
+      "id": "86ewhtzbg",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-E (05.28)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzbg"
+    },
+    {
+      "id": "86ewhtzde",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-F (06.11)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzde"
+    },
+    {
+      "id": "86ewhtzd6",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-F (06.11)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-08",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzd6"
+    },
+    {
+      "id": "86ewhtzcr",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-F (06.11)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-10",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzcr"
+    },
+    {
+      "id": "86ewhtzcm",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "MRG-2Q-F (06.11)",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-03",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzcm"
+    },
+    {
+      "id": "86ewhtzfx",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-A",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-06",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzfx"
+    },
+    {
+      "id": "86ewhtzf6",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-A",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzf6"
+    },
+    {
+      "id": "86ewhtzey",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-A",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-09",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzey"
+    },
+    {
+      "id": "86ewhtzer",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-A",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzer"
+    },
+    {
+      "id": "86ewhtzjk",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-B",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-20",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzjk"
+    },
+    {
+      "id": "86ewhtzhj",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-B",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzhj"
+    },
+    {
+      "id": "86ewhtzh0",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-B",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-23",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzh0"
+    },
+    {
+      "id": "86ewhtzgx",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-B",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzgx"
+    },
+    {
+      "id": "86ewhtzmr",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-C",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzmr"
+    },
+    {
+      "id": "86ewhtzka",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-C",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-05",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzka"
+    },
+    {
+      "id": "86ewhtzjb",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-C",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-07",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzjb"
+    },
+    {
+      "id": "86ewhtzhz",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-C",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-04-30",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzhz"
+    },
+    {
+      "id": "86ewhtzn5",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-D",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-18",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzn5"
+    },
+    {
+      "id": "86ewhtzmd",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-D",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-19",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzmd"
+    },
+    {
+      "id": "86ewhtzm0",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-D",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-21",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzm0"
+    },
+    {
+      "id": "86ewhtzkg",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-D",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-14",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzkg"
+    },
+    {
+      "id": "86ewhtzrh",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-E",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-01",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzrh"
+    },
+    {
+      "id": "86ewhtzqb",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-E",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-02",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzqb"
+    },
+    {
+      "id": "86ewhtzp6",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-E",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-04",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzp6"
+    },
+    {
+      "id": "86ewhtzn8",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-E",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-05-28",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzn8"
+    },
+    {
+      "id": "86ewhtzuw",
+      "name": "판촉",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-F",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-15",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzuw"
+    },
+    {
+      "id": "86ewhtzu2",
+      "name": "선공개",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-F",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-16",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtzu2"
+    },
+    {
+      "id": "86ewhtztm",
+      "name": "발매",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-F",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-18",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtztm"
+    },
+    {
+      "id": "86ewhtztc",
+      "name": "리깅",
+      "folder": "출시 유닛",
+      "list": "YMY-2Q-F",
+      "status": "to do",
+      "priority": "",
+      "assignees": [],
+      "due_date": "2026-06-11",
+      "tags": [],
+      "description": "",
+      "url": "https://app.clickup.com/t/86ewhtztc"
+    }
+  ]
+}
