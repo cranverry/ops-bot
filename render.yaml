@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: ops-bot
+    runtime: node
+    buildCommand: npm install && npm run build:local
+    startCommand: node server-local.cjs
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: CLICKUP_API_KEY
+        sync: false
+      - key: CLICKUP_TEAM_ID
+        value: 90182322460
+      - key: DISCORD_WEBHOOK
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: AUTH_INVITE_CODE
+        value: EDEN2026
+    healthCheckPath: /api/buffer
