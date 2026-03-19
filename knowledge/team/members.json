@@ -1,15 +1,40 @@
 {
   "meta": {
     "source": "Notion CR팀 워크스페이스 — 팀원 구성 (역할과 책임) > 2. R&R 테이블 (DB: 1eb1bca8)",
+    "notion_db_id": "1eb1bca8-582e-80a2-af80-eaa8f208486c",
     "updated": "2026-03-19",
-    "description": "파이프라인 담당자 지정 및 조회용 팀원 태그 인덱스"
+    "description": "파이프라인 담당자 지정 및 조회용 팀원 태그 인덱스",
+    "usage": {
+      "pipeline_assign": "role_index 또는 member name으로 파이프라인 세부 항목에 담당자 연결",
+      "lookup": "role_index[역할명] → 담당자 목록 / member name → 역할+책임 조회",
+      "notion_write": "Milo_bot이 역할(Role)[multi_select], 책임(Responsibility)[rich_text] 칼럼에 직접 쓰기 가능"
+    }
+  },
+  "notion_schema": {
+    "역할(Role)": {
+      "type": "multi_select",
+      "options": ["팀 리드", "비주얼 크리에이터", "모델링 리드", "리거", "모델러", "마케팅/기획", "프리미엄 모델러", "Boutique Serina"],
+      "writable": true
+    },
+    "책임(Responsibility)": { "type": "rich_text", "writable": true },
+    "보조업무": { "type": "rich_text", "writable": true },
+    "의사결정권": { "type": "rich_text", "writable": true },
+    "미션(Mission)": { "type": "rich_text", "writable": true },
+    "입사일": { "type": "date", "writable": true },
+    "이름": { "type": "title", "writable": true }
   },
   "members": [
     {
       "name": "박범진",
       "tags": ["박범진"],
       "roles": ["팀 리드"],
-      "responsibilities": ["EDEN Oasis 브랜드 책임", "팀 방향성 설정 및 최종 의사결정", "고객 정보 수집", "전체 제품 QC", "썸네일·프로모션 시각물 제작"]
+      "responsibilities": [
+        "EDEN Oasis 브랜드 책임",
+        "팀 방향성 설정 및 최종 의사결정",
+        "고객 정보 수집",
+        "전체 제품 QC",
+        "썸네일·프로모션 시각물 제작"
+      ]
     },
     {
       "name": "최현세",
@@ -21,25 +46,41 @@
       "name": "임주영",
       "tags": ["임주영"],
       "roles": ["리거"],
-      "responsibilities": ["Mirage by eden 브랜드 책임", "전 제품 Rigging 수행 (내부)", "리깅 QC 및 검수 (내부)"]
+      "responsibilities": [
+        "Mirage by eden 브랜드 책임",
+        "전 제품 Rigging 수행 (내부)",
+        "리깅 QC 및 검수 (내부)"
+      ]
     },
     {
       "name": "한동우",
       "tags": ["한동우"],
       "roles": ["모델러"],
-      "responsibilities": ["모델링·텍스처 풀파이프라인 수행", "Sculpting 작업", "SP 기반 텍스처링 OR 손맵 텍스처링", "와이어 흐름 정리"]
+      "responsibilities": [
+        "모델링·텍스처 풀파이프라인 수행",
+        "Sculpting 작업",
+        "SP 기반 텍스처링 OR 손맵 텍스처링",
+        "와이어 흐름 정리"
+      ]
     },
     {
       "name": "남태경",
       "tags": ["남태경"],
       "roles": ["모델러"],
-      "responsibilities": ["Boutique Serina 브랜드 책임", "모델링·텍스처 풀파이프라인 수행"]
+      "responsibilities": [
+        "Boutique Serina 브랜드 책임",
+        "모델링·텍스처 풀파이프라인 수행"
+      ]
     },
     {
       "name": "최석현",
       "tags": ["최석현"],
       "roles": ["프리미엄 모델러"],
-      "responsibilities": ["버튜버 커미션 풀파이프라인 수행", "포맷 변환, 쉐이더, 의상 변경, 말랑눈 등 커미션 작업", "오리지널 헤드, 성형, 헤어, 의상 모델링"]
+      "responsibilities": [
+        "버튜버 커미션 풀파이프라인 수행",
+        "포맷 변환, 쉐이더, 의상 변경, 말랑눈 등 커미션 작업",
+        "오리지널 헤드, 성형, 헤어, 의상 모델링"
+      ]
     },
     {
       "name": "강현종",
@@ -51,7 +92,10 @@
       "name": "윤건",
       "tags": ["윤건"],
       "roles": ["리거"],
-      "responsibilities": ["전 제품 Rigging 수행 (내부)", "리깅 QC 및 검수 (내부)"]
+      "responsibilities": [
+        "전 제품 Rigging 수행 (내부)",
+        "리깅 QC 및 검수 (내부)"
+      ]
     }
   ],
   "role_index": {
@@ -59,6 +103,13 @@
     "마케팅/기획": ["최현세"],
     "리거": ["임주영", "윤건"],
     "모델러": ["한동우", "남태경"],
-    "프리미엄 모델러": ["최석현"]
+    "프리미엄 모델러": ["최석현"],
+    "미배정": ["강현종"]
+  },
+  "pipeline_ready": {
+    "note": "파이프라인 세부 항목 생성 시 아래 구조로 담당자 연결 예정",
+    "assign_by_role": "role_index[역할] → 담당자 목록 반환",
+    "assign_by_name": "members[].name 매칭 → roles + responsibilities 반환",
+    "embed_format": "{ pipeline_item: string, assignee: string, role: string }"
   }
 }
