@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "description": "외주 작가 DB - 원화가/모델러/리거 Discord ID + 작업 정보",
+    "updated": "2026-03-21",
+    "schema": {
+      "name": "이름",
+      "discord_id": "Discord User ID (멘션: <@id>)",
+      "role": "illustrator | modeler | rigger | thumbnail",
+      "channel_id": "전용 작업 채널 ID (EDEN WORKS 서버)",
+      "active": "현재 활성 여부",
+      "notes": "메모"
+    }
+  },
+  "artists": [
+    {
+      "name": "전유라",
+      "discord_id": "320910168013668352",
+      "role": "illustrator",
+      "channel_id": "1474288312884920520",
+      "channel_name": "전유라-로리타드레스-시안완료",
+      "active": true,
+      "notes": "원화가. 로리타드레스 작업 이력 있음"
+    }
+  ],
+  "sop_links": {
+    "illustrator_guide": "https://0xseoul.notion.site/2-0-2611bca8582e8045954cdfb9a734714a",
+    "modeler_guide": "https://0xseoul.notion.site/3-0-1af1bca8582e8091a8cfda82a6bcc5ae"
+  },
+  "test_channel": "1481461986674868356",
+  "notification_schedule": {
+    "phase_1_days": 4,
+    "phase_2_days": 4,
+    "phase_3_days": 6,
+    "total_days": 14
+  }
+}
