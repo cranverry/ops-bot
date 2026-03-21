@@ -1,14 +1,13 @@
 {
   "_meta": {
-    "description": "외주 작가 DB - 원화가/모델러/리거 Discord ID + 작업 정보",
+    "description": "외주 작가 DB - illustrator/modeler/rigger Discord ID + 작업 채널",
     "updated": "2026-03-21",
     "schema": {
       "name": "이름",
-      "discord_id": "Discord User ID (멘션: <@id>)",
+      "discord_id": "Discord User ID",
       "role": "illustrator | modeler | rigger | thumbnail",
-      "channel_id": "전용 작업 채널 ID (EDEN WORKS 서버)",
-      "active": "현재 활성 여부",
-      "notes": "메모"
+      "channel_id": "전용 작업 채널 ID (EDEN WORKS)",
+      "active": "활성 여부"
     }
   },
   "artists": [
@@ -17,9 +16,42 @@
       "discord_id": "320910168013668352",
       "role": "illustrator",
       "channel_id": "1474288312884920520",
-      "channel_name": "전유라-로리타드레스-시안완료",
-      "active": true,
-      "notes": "원화가. 로리타드레스 작업 이력 있음"
+      "active": true
+    },
+    {
+      "name": "김효은",
+      "discord_id": "331782685121052672",
+      "role": "illustrator",
+      "channel_id": "1483100427498164408",
+      "active": true
+    },
+    {
+      "name": "박지수",
+      "discord_id": "879921313202966578",
+      "role": "illustrator",
+      "channel_id": "1480772459543269550",
+      "active": true
+    },
+    {
+      "name": "김유진",
+      "discord_id": "535134755730227200",
+      "role": "illustrator",
+      "channel_id": "1480140076301156374",
+      "active": true
+    },
+    {
+      "name": "권도윤",
+      "discord_id": "266976160880001035",
+      "role": "illustrator",
+      "channel_id": "1479393402687717396",
+      "active": true
+    },
+    {
+      "name": "김예진",
+      "discord_id": "1040268937067241572",
+      "role": "illustrator",
+      "channel_id": "1479393267551440916",
+      "active": true
     }
   ],
   "sop_links": {
@@ -27,7 +59,7 @@
     "modeler_guide": "https://0xseoul.notion.site/3-0-1af1bca8582e8091a8cfda82a6bcc5ae"
   },
   "test_channel": "1481461986674868356",
-  "notification_schedule": {
+  "schedule": {
     "phase_1_days": 4,
     "phase_2_days": 4,
     "phase_3_days": 6,
