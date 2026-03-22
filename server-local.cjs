@@ -513,30 +513,33 @@ app.get('/api/buffer-status', async (req, res) => {
     // 브랜드별 집계
     const counts = {}
     const BRANDS = ['OAS', 'MRG', 'BTQ']
-    BRANDS.forEach(b => { counts[b] = { buffer: 0, pipeline: 0 } })
+    BRANDS.forEach(b => { counts[b] = { planning: 0, illustration: 0, modeling: 0, pipeline: 0 } })
 
     data.results?.forEach(p => {
       const brand = p.properties?.Brand?.select?.name
       const status = p.properties?.Progress?.status?.name
       if (!brand || !counts[brand]) return
 
-      // 비축량: 모델링 완료 (생산 완료 대기)
-      if (status === '모델링 완료') {
-        counts[brand].buffer++
-      }
-      // 진행중: 기획완료 ~ 원화완료 단계
-      if (['기획 완료', '원화 진행중', '원화 완료', '모델링 진행중'].includes(status)) {
-        counts[brand].pipeline++
-      }
+      // 기획 완료 (원화 진행중 포함)
+      if (['기획 완료', '원화 진행중'].includes(status)) counts[brand].planning++
+      // 원화 완료 (모델링 진행중 포함)
+      if (['원화 완료', '모델링 진행중'].includes(status)) counts[brand].illustration++
+      // 모델링 완료
+      if (status === '모델링 완료') counts[brand].modeling++
+      // 전체 진행 파이프라인
+      if (['기획 완료', '원화 진행중', '원화 완료', '모델링 진행중', '모델링 완료'].includes(status)) counts[brand].pipeline++
     })
 
     const THRESHOLD = 3
     const result = {
       brands: BRANDS.map(b => ({
-        brand: b,
-        buffer:    counts[b].buffer,
-        pipeline:  counts[b].pipeline,
-        threshold: THRESHOLD
+        brand:        b,
+        planning:     Math.min(counts[b].planning,     THRESHOLD),
+        illustration: Math.min(counts[b].illustration, THRESHOLD),
+        modeling:     Math.min(counts[b].modeling,     THRESHOLD),
+        buffer:       counts[b].modeling,   // 레거시 호환
+        pipeline:     counts[b].pipeline,
+        threshold:    THRESHOLD
       })),
       updatedAt: new Date().toISOString()
     }

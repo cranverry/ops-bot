@@ -3,8 +3,6 @@ import { useChatStore } from '../stores/chatStore'
 import { streamChat } from '../api/chat'
 import MessageBubble, { LoadingBubble } from './MessageBubble'
 import InputBar from './InputBar'
-import PipelineStatus from './PipelineStatus'
-import BufferStatus from './BufferStatus'
 import MyTasksModal from './MyTasksModal'
 import type { Role } from '../types'
 
@@ -108,12 +106,6 @@ export default function ChatWindow() {
 
       {/* My Tasks Modal */}
       {showMyTasks && <MyTasksModal onClose={() => setShowMyTasks(false)} />}
-
-      {/* Buffer Status Bar */}
-      <BufferStatus />
-
-      {/* Pipeline Status Bar */}
-      <PipelineStatus />
 
       {/* Messages area */}
       <div className="flex-1 overflow-y-auto scrollbar-thin px-4 py-6">
