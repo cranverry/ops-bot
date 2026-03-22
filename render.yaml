@@ -17,4 +17,8 @@ services:
         generateValue: true
       - key: AUTH_INVITE_CODE
         value: EDEN2026
+      - key: NOTION_API_KEY
+        sync: false
+      - key: DISCORD_BOT_TOKEN
+        sync: false
     healthCheckPath: /api/buffer
