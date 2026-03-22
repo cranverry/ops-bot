@@ -54,6 +54,7 @@ export default function MyTasksModal({ onClose }: MyTasksModalProps) {
     const now = Date.now()
     const todayStart = new Date(); todayStart.setHours(0,0,0,0)
     const todayEnd   = new Date(); todayEnd.setHours(23,59,59,999)
+    const weekEnd    = new Date(todayEnd); weekEnd.setDate(weekEnd.getDate() + 6)
 
     const overdue:    Task[] = []
     const today:      Task[] = []
@@ -63,24 +64,30 @@ export default function MyTasksModal({ onClose }: MyTasksModalProps) {
     list.forEach(t => {
       const due   = t.dueDate
       const start = t.startDate
-      const isCompleted = t.status === 'complete'
-      if (isCompleted) return
+      if (t.status === 'complete') return
 
       if (due && due < todayStart.getTime()) {
         overdue.push(t)
       } else if (due && due >= todayStart.getTime() && due <= todayEnd.getTime()) {
         today.push(t)
-      } else if (t.status === 'in progress' || (start && start <= now)) {
-        inProgress.push(t)
       } else {
-        rest.push(t)
+        // 이번 주 이내: start 또는 due가 오늘~7일 이내
+        const dueThisWeek   = due   && due   > todayEnd.getTime() && due   <= weekEnd.getTime()
+        const startThisWeek = start && start >= todayStart.getTime() && start <= weekEnd.getTime()
+        const alreadyStarted = start && start <= now
+        if (dueThisWeek || startThisWeek || alreadyStarted) {
+          inProgress.push(t)
+        } else {
+          rest.push(t)
+        }
       }
     })
 
     return [
       { label: '지연된 작업', emoji: '🔴', tasks: overdue },
       { label: '오늘 마감', emoji: '🟡', tasks: today },
-      { label: '진행중', emoji: '🔵', tasks: [...inProgress, ...rest] },
+      { label: '진행중 (이번 주)', emoji: '🔵', tasks: inProgress },
+      { label: '기타', emoji: '⚪', tasks: rest },
     ].filter(g => g.tasks.length > 0)
   }
 
