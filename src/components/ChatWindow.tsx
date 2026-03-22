@@ -3,6 +3,7 @@ import { useChatStore } from '../stores/chatStore'
 import { streamChat } from '../api/chat'
 import MessageBubble, { LoadingBubble } from './MessageBubble'
 import InputBar from './InputBar'
+import PipelineStatus from './PipelineStatus'
 import type { Role } from '../types'
 
 export default function ChatWindow() {
@@ -94,6 +95,9 @@ export default function ChatWindow() {
           GPT-4o mini
         </div>
       </div>
+
+      {/* Pipeline Status Bar */}
+      <PipelineStatus />
 
       {/* Messages area */}
       <div className="flex-1 overflow-y-auto scrollbar-thin px-4 py-6">

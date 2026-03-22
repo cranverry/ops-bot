@@ -279,6 +279,56 @@ app.post('/api/auth', (req, res) => {
   res.json({ token, role })
 })
 
+// ── GET /api/pipeline-status (Notion 상품기획 DB) ────────────────────────────
+let _pipelineCache = null
+let _pipelineCacheAt = 0
+const PIPELINE_CACHE_TTL = 60 * 60 * 1000 // 1시간
+
+app.get('/api/pipeline-status', async (req, res) => {
+  try {
+    // 캐시 유효하면 즉시 반환
+    if (_pipelineCache && Date.now() - _pipelineCacheAt < PIPELINE_CACHE_TTL) {
+      return res.json(_pipelineCache)
+    }
+
+    const notionKey = process.env.NOTION_API_KEY
+    if (!notionKey) return res.status(500).json({ error: 'NOTION_API_KEY not set' })
+
+    const DB_ID = '3161bca8582e801aa7a8ffb90539b97d'
+    const r = await fetch(`https://api.notion.com/v1/databases/${DB_ID}/query`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${notionKey}`,
+        'Notion-Version': '2022-06-28',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ page_size: 100 })
+    })
+    const data = await r.json()
+
+    const counts = {}
+    data.results?.forEach(p => {
+      const s = p.properties?.Progress?.status?.name || '없음'
+      counts[s] = (counts[s] || 0) + 1
+    })
+
+    const result = {
+      planning_done:      (counts['기획 완료'] || 0) + (counts['원화 진행중'] || 0),
+      illustration_done:  (counts['원화 완료'] || 0) + (counts['모델링 진행중'] || 0),
+      modeling_done:      counts['모델링 완료'] || 0,
+      updatedAt: new Date().toISOString(),
+      raw: counts
+    }
+
+    _pipelineCache = result
+    _pipelineCacheAt = Date.now()
+    res.json(result)
+  } catch (e) {
+    console.error('[pipeline-status]', e.message)
+    res.status(500).json({ error: e.message })
+  }
+})
+
 // ── GET /api/buffer ──────────────────────────────────────────────────────────
 app.get('/api/buffer', async (req, res) => {
   try {
