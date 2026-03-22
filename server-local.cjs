@@ -512,13 +512,13 @@ app.get('/api/buffer-status', async (req, res) => {
 
     // 브랜드별 집계
     const counts = {}
-    const BRANDS = ['OAS', 'MRG', 'BTQ']
+    const BRANDS = ['OAS', 'MRG', 'BTQ', '기타']
     BRANDS.forEach(b => { counts[b] = { planning: 0, illustration: 0, modeling: 0, pipeline: 0 } })
 
     data.results?.forEach(p => {
-      const brand = p.properties?.Brand?.select?.name
+      const rawBrand = p.properties?.Brand?.select?.name
+      const brand = BRANDS.includes(rawBrand) ? rawBrand : '기타'
       const status = p.properties?.Progress?.status?.name
-      if (!brand || !counts[brand]) return
 
       // 기획 완료 (원화 진행중 포함)
       if (['기획 완료', '원화 진행중'].includes(status)) counts[brand].planning++

@@ -19,9 +19,10 @@ interface DashData {
 const MAX = 3
 
 const BRAND_META: Record<string, { color: string; label: string }> = {
-  OAS: { color: '#f59e0b', label: 'OAS' },
-  MRG: { color: '#ec4899', label: 'MRG' },
-  BTQ: { color: '#06b6d4', label: 'BTQ' },
+  OAS:  { color: '#f59e0b', label: 'OAS' },
+  MRG:  { color: '#ec4899', label: 'MRG' },
+  BTQ:  { color: '#06b6d4', label: 'BTQ' },
+  기타: { color: '#9aa0b5', label: '기타 (미지정)' },
 }
 
 const STAGES = [
@@ -81,9 +82,10 @@ export default function BufferDashboard() {
   useEffect(() => { fetchData() }, [])
 
   const brands = data?.brands ?? [
-    { brand: 'OAS', planning: 0, illustration: 0, modeling: 0 },
-    { brand: 'MRG', planning: 0, illustration: 0, modeling: 0 },
-    { brand: 'BTQ', planning: 0, illustration: 0, modeling: 0 },
+    { brand: 'OAS',  planning: 0, illustration: 0, modeling: 0 },
+    { brand: 'MRG',  planning: 0, illustration: 0, modeling: 0 },
+    { brand: 'BTQ',  planning: 0, illustration: 0, modeling: 0 },
+    { brand: '기타', planning: 0, illustration: 0, modeling: 0 },
   ]
 
   return (
