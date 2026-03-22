@@ -82,7 +82,19 @@ export default function ChatWindow() {
           </svg>
         </button>
 
-        <div className="flex-1">
+        {/* 내 할일 — primary 버튼 (첫 번째) */}
+        <button
+          onClick={() => setShowMyTasks(true)}
+          className="flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#7c6aff] hover:bg-[#6b5aee] transition-colors text-xs font-semibold text-white flex-shrink-0"
+        >
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+            <rect x="1" y="1" width="11" height="11" rx="2" stroke="currentColor" strokeWidth="1.3"/>
+            <path d="M4 4.5h5M4 6.5h5M4 8.5h3" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
+          </svg>
+          내 할일
+        </button>
+
+        <div className="flex-1 min-w-0">
           <h2 className="text-sm font-semibold text-[#e2e4ec] truncate">
             {session?.title ?? '새 대화'}
           </h2>
@@ -90,18 +102,6 @@ export default function ChatWindow() {
             {messages.length > 0 ? `${messages.length}개 메시지` : 'FromSeoul OpsBot'}
           </p>
         </div>
-
-        {/* My Tasks button */}
-        <button
-          onClick={() => setShowMyTasks(true)}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#252836] border border-[#2e3147] hover:border-[#7c6aff]/40 hover:bg-[#7c6aff]/10 transition-colors text-xs text-[#9aa0b5] hover:text-[#a59aff] flex-shrink-0"
-        >
-          <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
-            <rect x="1" y="1" width="11" height="11" rx="2" stroke="currentColor" strokeWidth="1.2"/>
-            <path d="M4 4.5h5M4 6.5h5M4 8.5h3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-          </svg>
-          내 할일
-        </button>
       </div>
 
       {/* My Tasks Modal */}
