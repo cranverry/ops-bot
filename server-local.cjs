@@ -329,13 +329,73 @@ app.get('/api/pipeline-status', async (req, res) => {
   }
 })
 
-// ── GET /api/buffer ──────────────────────────────────────────────────────────
+// ── GET /api/buffer (legacy) ──────────────────────────────────────────────────
 app.get('/api/buffer', async (req, res) => {
+  res.json({ OAS: 2, MRG: 1, BTQ: 4, threshold: 3, mock: true })
+})
+
+// ── GET /api/buffer-status (브랜드별 비축량 - Notion 상품기획 DB) ──────────────
+let _bufferCache = null
+let _bufferCacheAt = 0
+const BUFFER_CACHE_TTL = 60 * 60 * 1000
+
+app.get('/api/buffer-status', async (req, res) => {
   try {
-    const apiKey = process.env.CLICKUP_API_KEY
-    if (!apiKey) return res.json({ OAS: 2, MRG: 1, BTQ: 4, threshold: 3, mock: true })
-    res.json({ OAS: 2, MRG: 1, BTQ: 4, threshold: 3, mock: true })
+    if (_bufferCache && Date.now() - _bufferCacheAt < BUFFER_CACHE_TTL) {
+      return res.json(_bufferCache)
+    }
+
+    const notionKey = process.env.NOTION_API_KEY
+    if (!notionKey) return res.status(500).json({ error: 'NOTION_API_KEY not set' })
+
+    const DB_ID = '3161bca8582e801aa7a8ffb90539b97d'
+    const r = await fetch(`https://api.notion.com/v1/databases/${DB_ID}/query`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${notionKey}`,
+        'Notion-Version': '2022-06-28',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ page_size: 100 })
+    })
+    const data = await r.json()
+
+    // 브랜드별 집계
+    const counts = {}
+    const BRANDS = ['OAS', 'MRG', 'BTQ']
+    BRANDS.forEach(b => { counts[b] = { buffer: 0, pipeline: 0 } })
+
+    data.results?.forEach(p => {
+      const brand = p.properties?.Brand?.select?.name
+      const status = p.properties?.Progress?.status?.name
+      if (!brand || !counts[brand]) return
+
+      // 비축량: 모델링 완료 (생산 완료 대기)
+      if (status === '모델링 완료') {
+        counts[brand].buffer++
+      }
+      // 진행중: 기획완료 ~ 원화완료 단계
+      if (['기획 완료', '원화 진행중', '원화 완료', '모델링 진행중'].includes(status)) {
+        counts[brand].pipeline++
+      }
+    })
+
+    const THRESHOLD = 3
+    const result = {
+      brands: BRANDS.map(b => ({
+        brand: b,
+        buffer:    counts[b].buffer,
+        pipeline:  counts[b].pipeline,
+        threshold: THRESHOLD
+      })),
+      updatedAt: new Date().toISOString()
+    }
+
+    _bufferCache = result
+    _bufferCacheAt = Date.now()
+    res.json(result)
   } catch (e) {
+    console.error('[buffer-status]', e.message)
     res.status(500).json({ error: e.message })
   }
 })

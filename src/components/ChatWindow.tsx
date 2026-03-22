@@ -4,6 +4,7 @@ import { streamChat } from '../api/chat'
 import MessageBubble, { LoadingBubble } from './MessageBubble'
 import InputBar from './InputBar'
 import PipelineStatus from './PipelineStatus'
+import BufferStatus from './BufferStatus'
 import type { Role } from '../types'
 
 export default function ChatWindow() {
@@ -95,6 +96,9 @@ export default function ChatWindow() {
           GPT-4o mini
         </div>
       </div>
+
+      {/* Buffer Status Bar */}
+      <BufferStatus />
 
       {/* Pipeline Status Bar */}
       <PipelineStatus />
