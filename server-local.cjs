@@ -6,8 +6,28 @@ require('dotenv').config()
 const express = require('express')
 const path = require('path')
 const fs = require('fs')
-require('dotenv').config() // 중복 호출 방지용 (상단에서 이미 호출)
+const crypto = require('crypto')
+const jwt = require('jsonwebtoken')
 const { dispatchIllustration, loadDB } = require('./lib/illustration-dispatch.cjs')
+
+const JWT_SECRET = process.env.JWT_SECRET || 'opsbot-dev-secret'
+const USERS_PATH = path.join(__dirname, 'data', 'users.json')
+
+function hashPassword(pw) {
+  return crypto.createHash('sha256').update(pw).digest('hex')
+}
+function loadUsers() {
+  return JSON.parse(fs.readFileSync(USERS_PATH, 'utf-8'))
+}
+function saveUsers(data) {
+  fs.writeFileSync(USERS_PATH, JSON.stringify(data, null, 2))
+}
+function verifyToken(req) {
+  const auth = req.headers.authorization || ''
+  const token = auth.replace('Bearer ', '')
+  if (!token) return null
+  try { return jwt.verify(token, JWT_SECRET) } catch { return null }
+}
 
 // ── Knowledge Base 로드 ─────────────────────────────────────────────────────
 function loadKnowledge() {
@@ -270,13 +290,143 @@ app.get('/api/webhook/clickup', (req, res) => {
   res.json({ status: 'ClickUp webhook endpoint active', path: '/api/webhook/clickup' })
 })
 
-// ── POST /api/auth ───────────────────────────────────────────────────────────
+// ── POST /api/auth (legacy invite code) ─────────────────────────────────────
 app.post('/api/auth', (req, res) => {
   const { inviteCode, role } = req.body
   const validCode = process.env.AUTH_INVITE_CODE || 'EDEN2026'
   if (inviteCode !== validCode) return res.status(401).json({ error: 'Invalid invite code' })
   const token = Buffer.from(JSON.stringify({ role, exp: Date.now() + 7 * 86400000 })).toString('base64')
   res.json({ token, role })
+})
+
+// ── POST /api/auth/login ─────────────────────────────────────────────────────
+app.post('/api/auth/login', (req, res) => {
+  const { username, password } = req.body
+  if (!username || !password) return res.status(400).json({ error: '아이디와 비밀번호를 입력하세요.' })
+
+  const { users } = loadUsers()
+  const user = users.find(u => u.username === username)
+  if (!user) return res.status(401).json({ error: '아이디 또는 비밀번호가 올바르지 않습니다.' })
+
+  const hash = hashPassword(password)
+  if (hash !== user.passwordHash) return res.status(401).json({ error: '아이디 또는 비밀번호가 올바르지 않습니다.' })
+
+  const token = jwt.sign(
+    { username: user.username, role: user.role, clickupId: user.clickupId },
+    JWT_SECRET,
+    { expiresIn: '7d' }
+  )
+
+  res.json({
+    token,
+    role: user.role,
+    username: user.username,
+    clickupId: user.clickupId,
+    mustChangePassword: user.mustChangePassword || false
+  })
+})
+
+// ── POST /api/auth/change-password ───────────────────────────────────────────
+app.post('/api/auth/change-password', (req, res) => {
+  const payload = verifyToken(req)
+  if (!payload) return res.status(401).json({ error: '인증이 필요합니다.' })
+
+  const { newPassword } = req.body
+  if (!newPassword || newPassword.length < 4) return res.status(400).json({ error: '비밀번호는 4자 이상이어야 합니다.' })
+  if (newPassword === '0000') return res.status(400).json({ error: '기본 비밀번호로는 변경할 수 없습니다.' })
+
+  const data = loadUsers()
+  const idx = data.users.findIndex(u => u.username === payload.username)
+  if (idx < 0) return res.status(404).json({ error: '사용자를 찾을 수 없습니다.' })
+
+  data.users[idx].passwordHash = hashPassword(newPassword)
+  data.users[idx].mustChangePassword = false
+  saveUsers(data)
+
+  res.json({ ok: true, message: '비밀번호가 변경되었습니다.' })
+})
+
+// ── GET /api/my-tasks ────────────────────────────────────────────────────────
+app.get('/api/my-tasks', async (req, res) => {
+  const payload = verifyToken(req)
+  if (!payload) return res.status(401).json({ error: '인증이 필요합니다.' })
+
+  const clickupKey = process.env.CLICKUP_API_KEY
+  if (!clickupKey) return res.status(500).json({ error: 'CLICKUP_API_KEY not set' })
+
+  const TEAM_ID = '90182322460'
+  const SPACE_ID = '90189279936'
+
+  try {
+    // 담당자 기준 전체 태스크 조회 (완료 제외)
+    const url = new URL(`https://api.clickup.com/api/v2/team/${TEAM_ID}/task`)
+    url.searchParams.set('assignees[]', payload.clickupId)
+    url.searchParams.set('include_closed', 'false')
+    url.searchParams.set('subtasks', 'true')
+    url.searchParams.set('page', '0')
+
+    const r = await fetch(url.toString(), { headers: { Authorization: clickupKey } })
+    const data = await r.json()
+
+    const tasks = (data.tasks || []).map(t => ({
+      id: t.id,
+      name: t.name,
+      status: t.status?.status || '',
+      statusColor: t.status?.color || '#4a5060',
+      folder: t.folder?.name || '',
+      list: t.list?.name || '',
+      startDate: t.start_date ? parseInt(t.start_date) : null,
+      dueDate: t.due_date ? parseInt(t.due_date) : null,
+      url: t.url || '',
+    })).sort((a, b) => {
+      const da = a.dueDate || a.startDate || 0
+      const db = b.dueDate || b.startDate || 0
+      return da - db
+    })
+
+    res.json({ tasks, username: payload.username })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+// ── PATCH /api/tasks/:taskId ─ 제한된 속성만 변경 (삭제 불가) ────────────────
+app.patch('/api/tasks/:taskId', async (req, res) => {
+  const payload = verifyToken(req)
+  if (!payload) return res.status(401).json({ error: '인증이 필요합니다.' })
+
+  const { taskId } = req.params
+  const { status, startDate, dueDate } = req.body
+
+  // 허용된 필드만
+  const allowedKeys = ['status', 'startDate', 'dueDate']
+  const requestedKeys = Object.keys(req.body)
+  const forbidden = requestedKeys.filter(k => !allowedKeys.includes(k))
+  if (forbidden.length > 0) {
+    return res.status(403).json({ error: `허용되지 않은 필드: ${forbidden.join(', ')}. (상태, 날짜만 변경 가능)` })
+  }
+
+  const clickupKey = process.env.CLICKUP_API_KEY
+  if (!clickupKey) return res.status(500).json({ error: 'CLICKUP_API_KEY not set' })
+
+  try {
+    const body = {}
+    if (status !== undefined) body.status = status
+    if (startDate !== undefined) body.start_date = startDate
+    if (dueDate !== undefined) body.due_date = dueDate
+
+    const r = await fetch(`https://api.clickup.com/api/v2/task/${taskId}`, {
+      method: 'PUT',
+      headers: { Authorization: clickupKey, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    })
+    const data = await r.json()
+
+    if (data.err) return res.status(400).json({ error: data.err })
+    res.json({ ok: true, task: { id: data.id, name: data.name, status: data.status?.status } })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
 })
 
 // ── GET /api/pipeline-status (Notion 상품기획 DB) ────────────────────────────

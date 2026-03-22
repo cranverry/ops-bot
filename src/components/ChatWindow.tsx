@@ -5,6 +5,7 @@ import MessageBubble, { LoadingBubble } from './MessageBubble'
 import InputBar from './InputBar'
 import PipelineStatus from './PipelineStatus'
 import BufferStatus from './BufferStatus'
+import MyTasksModal from './MyTasksModal'
 import type { Role } from '../types'
 
 export default function ChatWindow() {
@@ -19,6 +20,7 @@ export default function ChatWindow() {
   } = useChatStore()
 
   const [isLoading, setIsLoading] = useState(false)
+  const [showMyTasks, setShowMyTasks] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
 
   const session = getActiveSession()
@@ -91,11 +93,21 @@ export default function ChatWindow() {
           </p>
         </div>
 
-        {/* Session info */}
-        <div className="text-xs text-[#4a5060] hidden sm:block">
-          GPT-4o mini
-        </div>
+        {/* My Tasks button */}
+        <button
+          onClick={() => setShowMyTasks(true)}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#252836] border border-[#2e3147] hover:border-[#7c6aff]/40 hover:bg-[#7c6aff]/10 transition-colors text-xs text-[#9aa0b5] hover:text-[#a59aff] flex-shrink-0"
+        >
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+            <rect x="1" y="1" width="11" height="11" rx="2" stroke="currentColor" strokeWidth="1.2"/>
+            <path d="M4 4.5h5M4 6.5h5M4 8.5h3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+          </svg>
+          내 할일
+        </button>
       </div>
+
+      {/* My Tasks Modal */}
+      {showMyTasks && <MyTasksModal onClose={() => setShowMyTasks(false)} />}
 
       {/* Buffer Status Bar */}
       <BufferStatus />

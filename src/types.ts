@@ -20,6 +20,8 @@ export interface AuthState {
   authenticated: boolean
   role: Role | null
   token: string | null
+  username: string | null
+  clickupId: number | null
 }
 
 export interface BufferStatus {

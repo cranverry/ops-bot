@@ -5,7 +5,7 @@ import type { Message, ChatSession, AuthState, Role } from '../types'
 interface ChatStore {
   // Auth
   auth: AuthState
-  login: (role: Role, token: string) => void
+  login: (role: Role, token: string, username?: string, clickupId?: number) => void
   logout: () => void
 
   // Sessions
@@ -43,13 +43,15 @@ export const useChatStore = create<ChatStore>()(
         authenticated: false,
         role: null,
         token: null,
+        username: null,
+        clickupId: null,
       },
 
-      login: (role, token) =>
-        set({ auth: { authenticated: true, role, token } }),
+      login: (role, token, username, clickupId) =>
+        set({ auth: { authenticated: true, role, token, username: username ?? null, clickupId: clickupId ?? null } }),
 
       logout: () =>
-        set({ auth: { authenticated: false, role: null, token: null } }),
+        set({ auth: { authenticated: false, role: null, token: null, username: null, clickupId: null } }),
 
       sessions: [],
       activeSessionId: null,
