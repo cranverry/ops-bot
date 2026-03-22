@@ -49,6 +49,41 @@ export default function MyTasksModal({ onClose }: MyTasksModalProps) {
   const [editing, setEditing] = useState<EditingField>(null)
   const [saving, setSaving] = useState<string | null>(null)
 
+  // 그룹화
+  function groupTasks(list: Task[]) {
+    const now = Date.now()
+    const todayStart = new Date(); todayStart.setHours(0,0,0,0)
+    const todayEnd   = new Date(); todayEnd.setHours(23,59,59,999)
+
+    const overdue:    Task[] = []
+    const today:      Task[] = []
+    const inProgress: Task[] = []
+    const rest:       Task[] = []
+
+    list.forEach(t => {
+      const due   = t.dueDate
+      const start = t.startDate
+      const isCompleted = t.status === 'complete'
+      if (isCompleted) return
+
+      if (due && due < todayStart.getTime()) {
+        overdue.push(t)
+      } else if (due && due >= todayStart.getTime() && due <= todayEnd.getTime()) {
+        today.push(t)
+      } else if (t.status === 'in progress' || (start && start <= now)) {
+        inProgress.push(t)
+      } else {
+        rest.push(t)
+      }
+    })
+
+    return [
+      { label: '지연된 작업', emoji: '🔴', tasks: overdue },
+      { label: '오늘 마감', emoji: '🟡', tasks: today },
+      { label: '진행중', emoji: '🔵', tasks: [...inProgress, ...rest] },
+    ].filter(g => g.tasks.length > 0)
+  }
+
   useEffect(() => {
     fetchTasks()
   }, [])
@@ -147,7 +182,17 @@ export default function MyTasksModal({ onClose }: MyTasksModalProps) {
             </div>
           )}
 
-          {!loading && tasks.map(task => (
+          {!loading && !error && groupTasks(tasks).map(group => (
+            <div key={group.label}>
+              {/* Group header */}
+              <div className="flex items-center gap-2 px-1 py-2 sticky top-0 bg-[#1a1d27] z-10">
+                <span className="text-xs">{group.emoji}</span>
+                <span className="text-xs font-semibold text-[#9aa0b5]">{group.label}</span>
+                <span className="text-[10px] text-[#4a5060] ml-1">{group.tasks.length}건</span>
+              </div>
+
+              <div className="space-y-2 mb-3">
+              {group.tasks.map(task => (
             <div key={task.id} className="bg-[#252836] border border-[#2e3147] rounded-xl p-3.5 hover:border-[#3e4157] transition-colors">
               {/* Task name + folder */}
               <div className="flex items-start gap-2 mb-2.5">
@@ -251,6 +296,9 @@ export default function MyTasksModal({ onClose }: MyTasksModalProps) {
                 {saving === task.id && (
                   <span className="text-[10px] text-[#7c6aff] animate-pulse">저장 중...</span>
                 )}
+              </div>
+            </div>
+          ))}
               </div>
             </div>
           ))}
