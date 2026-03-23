@@ -463,7 +463,7 @@ app.get('/api/pipeline-status', async (req, res) => {
     })
 
     const result = {
-      planning_done:      (counts['기획 완료'] || 0) + (counts['원화 진행중'] || 0),
+      planning_done:      (counts['기획 완료'] || 0) + (counts['원화 시안 진행중'] || 0) + (counts['원화 시안 완료'] || 0) + (counts['원화 고도화 진행중'] || 0),
       illustration_done:  (counts['원화 완료'] || 0) + (counts['모델링 진행중'] || 0),
       modeling_done:      counts['모델링 완료'] || 0,
       updatedAt: new Date().toISOString(),
@@ -520,14 +520,14 @@ app.get('/api/buffer-status', async (req, res) => {
       const brand = BRANDS.includes(rawBrand) ? rawBrand : '기타'
       const status = p.properties?.Progress?.status?.name
 
-      // 기획 완료 (원화 진행중 포함)
-      if (['기획 완료', '원화 진행중'].includes(status)) counts[brand].planning++
+      // 기획 완료 (원화 시안 진행중/완료, 원화 고도화 진행중 포함)
+      if (['기획 완료', '원화 시안 진행중', '원화 시안 완료', '원화 고도화 진행중'].includes(status)) counts[brand].planning++
       // 원화 완료 (모델링 진행중 포함)
       if (['원화 완료', '모델링 진행중'].includes(status)) counts[brand].illustration++
       // 모델링 완료
       if (status === '모델링 완료') counts[brand].modeling++
       // 전체 진행 파이프라인
-      if (['기획 완료', '원화 진행중', '원화 완료', '모델링 진행중', '모델링 완료'].includes(status)) counts[brand].pipeline++
+      if (['기획 완료', '원화 시안 진행중', '원화 시안 완료', '원화 고도화 진행중', '원화 완료', '모델링 진행중', '모델링 완료'].includes(status)) counts[brand].pipeline++
     })
 
     const THRESHOLD = 3
